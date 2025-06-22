@@ -5,7 +5,11 @@ My personal blog([About Me](https://github.com/yihong0618/gitblog/issues/282)) u
 [RSS Feed](https://raw.githubusercontent.com/sunyuan686/blog/master/feed.xml)
 
 ## 最近更新
+- [学计算机一定要折腾，不怕麻烦。](https://github.com/sunyuan686/blog/issues/2)--2025-06-22
 - [init test](https://github.com/sunyuan686/blog/issues/1)--2025-06-22
+## THINK
+
+- [学计算机一定要折腾，不怕麻烦。](https://github.com/sunyuan686/blog/issues/2)--2025-06-22
 ## init-test
 
 - [init test](https://github.com/sunyuan686/blog/issues/1)--2025-06-22
