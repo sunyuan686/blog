@@ -1,2 +1,2 @@
-# blog
-only a  gitblog
+# README 
+init add
