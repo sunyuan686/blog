@@ -1,8 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/sunyuan686/blog</id><title>RSS feed of sunyuan686's blog</title><updated>2025-06-22T16:16:32.598521+00:00</updated><link href="https://github.com/sunyuan686/blog"/><link href="https://raw.githubusercontent.com/sunyuan686/blog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator><entry><id>https://github.com/sunyuan686/blog/issues/2</id><title>学计算机一定要折腾，不怕麻烦。</title><updated>2025-06-22T16:16:32.940432+00:00</updated><content type="html"><![CDATA[<p>出来混，最重要的是出来。
+<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/sunyuan686/blog</id><title>RSS feed of sunyuan686's blog</title><updated>2025-06-23T16:22:14.990221+00:00</updated><link href="https://github.com/sunyuan686/blog"/><link href="https://raw.githubusercontent.com/sunyuan686/blog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator><entry><id>https://github.com/sunyuan686/blog/issues/3</id><title>去输出去分享！</title><updated>2025-06-23T16:22:15.215667+00:00</updated><content type="html"><![CDATA[<p>要疯狂输入然后输出，要形成闭环。
+用输出倒逼自己，驱动去学习整理理解记忆。不然太容易忘了。
+还有就是干啥事情不要战线拉太长，不然就会学了后面的忘了前面的，太痛苦了。
+Respect </p>
+]]></content><link href="https://github.com/sunyuan686/blog/issues/3"/><category term="THINK"/><published>2025-06-23T16:22:01+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/2</id><title>学计算机一定要折腾，不怕麻烦。</title><updated>2025-06-23T16:22:15.312354+00:00</updated><content type="html"><![CDATA[<p>出来混，最重要的是出来。
 博客一直在纠结用什么工具，用什么主题，框架怎么搭，却忽略了最重要的是内容啊。
 看到了好多大佬再输出，也想整一个，一直懒得折腾，迟迟没有去行动，几年了最终什么都没有。
 所以说学计算机，一定要多折腾。
 从折腾从总结经验，从折腾中学习，去折腾，去感受，去寻找自己愿意折腾并真正喜欢的事情。</p>
-]]></content><link href="https://github.com/sunyuan686/blog/issues/2"/><category term="THINK"/><published>2025-06-22T16:16:13+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/1</id><title>init test</title><updated>2025-06-22T16:16:33.087255+00:00</updated><content type="html"><![CDATA[<p>hello ，this is init test</p>
+]]></content><link href="https://github.com/sunyuan686/blog/issues/2"/><category term="THINK"/><published>2025-06-22T16:16:13+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/1</id><title>init test</title><updated>2025-06-23T16:22:15.403457+00:00</updated><content type="html"><![CDATA[<p>hello ，this is init test</p>
 ]]></content><link href="https://github.com/sunyuan686/blog/issues/1"/><category term="init-test"/><published>2025-06-22T10:35:29+00:00</published></entry></feed>
