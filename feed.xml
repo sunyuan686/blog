@@ -1,6 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/sunyuan686/blog</id><title>RSS feed of sunyuan686's blog</title><updated>2025-07-09T12:42:15.010430+00:00</updated><link href="https://github.com/sunyuan686/blog"/><link href="https://raw.githubusercontent.com/sunyuan686/blog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator><entry><id>https://github.com/sunyuan686/blog/issues/5</id><title>use custom domain!</title><updated>2025-07-09T12:42:15.330356+00:00</updated><content type="html"><![CDATA[<p>[https://blog.xixihaha.tech](click here)</p>
-]]></content><link href="https://github.com/sunyuan686/blog/issues/5"/><category term="init-test"/><published>2025-07-09T12:41:56+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/4</id><title>AI 太会安慰人了，像一个贴心的好老师，给你信心给你安慰</title><updated>2025-07-09T12:42:15.461725+00:00</updated><content type="html"><![CDATA[<p>&lt; 我是一个废物。学不会算法，学习能力差，一道归并排序半天没学会，我该怎么办。</p>
+<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/sunyuan686/blog</id><title>RSS feed of sunyuan686's blog</title><updated>2025-07-09T13:20:46.977737+00:00</updated><link href="https://github.com/sunyuan686/blog"/><link href="https://raw.githubusercontent.com/sunyuan686/blog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator><entry><id>https://github.com/sunyuan686/blog/issues/6</id><title>About me</title><updated>2025-07-09T13:20:47.285108+00:00</updated><content type="html"><![CDATA[<h1>About Me</h1>
+<p>Runs for fun. Not fast.
+No life .Coding is passion.</p>
+<p>Vim &amp; terminal lover.
+Obsessive about efficiency and high-performance code.
+Pursuing a pure keyboard workflow（%10 😅 ）.</p>
+<p>Eat. Sleep. Code. Repeat.
+: wq</p>
+]]></content><link href="https://github.com/sunyuan686/blog/issues/6"/><category term="About"/><published>2025-07-09T13:20:23+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/5</id><title>use custom domain!</title><updated>2025-07-09T13:20:47.370786+00:00</updated><content type="html"><![CDATA[<p>[https://blog.xixihaha.tech](click here)</p>
+]]></content><link href="https://github.com/sunyuan686/blog/issues/5"/><category term="init-test"/><published>2025-07-09T12:41:56+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/4</id><title>AI 太会安慰人了，像一个贴心的好老师，给你信心给你安慰</title><updated>2025-07-09T13:20:47.469758+00:00</updated><content type="html"><![CDATA[<p>&lt; 我是一个废物。学不会算法，学习能力差，一道归并排序半天没学会，我该怎么办。</p>
 <p>看到你这么说，我感到非常难过，但请你 一定、一定不要这样称呼自己。
 你不是废物。你只是一个在学习过程中遇到了困难，感到极度挫败的学生。这种感觉，几乎每一个学习编程和算法的人都经历过，真的，我向你保证。
 “一道归并排序半天没学会” 这件事，绝对不能定义你这个人，更不能说明你学习能力差。让我为你拆解一下这个问题，希望能帮助你走出这个困境。
@@ -46,14 +54,14 @@
 你不是废物，你只是一个在攀登一座有点陡峭的山峰的学习者。暂时卡住，不代表你登不上去。调整一下装备（学习方法），喘口气（休息一下），你完全可以继续前行。
 给自己一点时间和耐心。如果今天学不会，就睡一觉，让大脑在后台自己处理一下信息，明天可能就会有新的理解。加油！你远比你想象的要强大。</li>
 </ul>
-]]></content><link href="https://github.com/sunyuan686/blog/issues/4"/><category term="THINK"/><published>2025-07-06T16:15:16+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/3</id><title>去输出去分享！</title><updated>2025-07-09T12:42:15.632369+00:00</updated><content type="html"><![CDATA[<p>要疯狂输入然后输出，要形成闭环。
+]]></content><link href="https://github.com/sunyuan686/blog/issues/4"/><category term="THINK"/><published>2025-07-06T16:15:16+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/3</id><title>去输出去分享！</title><updated>2025-07-09T13:20:47.577434+00:00</updated><content type="html"><![CDATA[<p>要疯狂输入然后输出，要形成闭环。
 用输出倒逼自己，驱动去学习整理理解记忆。不然太容易忘了。
 还有就是干啥事情不要战线拉太长，不然就会学了后面的忘了前面的，太痛苦了。
 Respect </p>
-]]></content><link href="https://github.com/sunyuan686/blog/issues/3"/><category term="THINK"/><published>2025-06-23T16:22:01+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/2</id><title>学计算机一定要折腾，不怕麻烦。</title><updated>2025-07-09T12:42:15.768243+00:00</updated><content type="html"><![CDATA[<p>出来混，最重要的是出来。
+]]></content><link href="https://github.com/sunyuan686/blog/issues/3"/><category term="THINK"/><published>2025-06-23T16:22:01+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/2</id><title>学计算机一定要折腾，不怕麻烦。</title><updated>2025-07-09T13:20:47.693166+00:00</updated><content type="html"><![CDATA[<p>出来混，最重要的是出来。
 博客一直在纠结用什么工具，用什么主题，框架怎么搭，却忽略了最重要的是内容啊。
 看到了好多大佬再输出，也想整一个，一直懒得折腾，迟迟没有去行动，几年了最终什么都没有。
 所以说学计算机，一定要多折腾。
 从折腾从总结经验，从折腾中学习，去折腾，去感受，去寻找自己愿意折腾并真正喜欢的事情。</p>
-]]></content><link href="https://github.com/sunyuan686/blog/issues/2"/><category term="THINK"/><published>2025-06-22T16:16:13+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/1</id><title>init test</title><updated>2025-07-09T12:42:15.938476+00:00</updated><content type="html"><![CDATA[<p>hello ，this is init test</p>
+]]></content><link href="https://github.com/sunyuan686/blog/issues/2"/><category term="THINK"/><published>2025-06-22T16:16:13+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/1</id><title>init test</title><updated>2025-07-09T13:20:47.828348+00:00</updated><content type="html"><![CDATA[<p>hello ，this is init test</p>
 ]]></content><link href="https://github.com/sunyuan686/blog/issues/1"/><category term="init-test"/><published>2025-06-22T10:35:29+00:00</published></entry></feed>
