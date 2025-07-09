@@ -5,6 +5,7 @@ My personal blog([About Me](https://github.com/yihong0618/gitblog/issues/282)) u
 [RSS Feed](https://raw.githubusercontent.com/sunyuan686/blog/master/feed.xml)
 
 ## 最近更新
+- [use custom domain!](https://github.com/sunyuan686/blog/issues/5)--2025-07-09
 - [AI 太会安慰人了，像一个贴心的好老师，给你信心给你安慰](https://github.com/sunyuan686/blog/issues/4)--2025-07-06
 - [去输出去分享！](https://github.com/sunyuan686/blog/issues/3)--2025-06-23
 - [学计算机一定要折腾，不怕麻烦。](https://github.com/sunyuan686/blog/issues/2)--2025-06-22
@@ -16,4 +17,5 @@ My personal blog([About Me](https://github.com/yihong0618/gitblog/issues/282)) u
 - [学计算机一定要折腾，不怕麻烦。](https://github.com/sunyuan686/blog/issues/2)--2025-06-22
 ## init-test
 
+- [use custom domain!](https://github.com/sunyuan686/blog/issues/5)--2025-07-09
 - [init test](https://github.com/sunyuan686/blog/issues/1)--2025-06-22
