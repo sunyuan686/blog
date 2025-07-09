@@ -11,6 +11,6 @@ even_title = "sunyuan's Blog"
 even_menu = [
     {url = "$BASE_URL", name = "Home"},
     {url = "$BASE_URL/tags/top/", name = "Top"},
-    {url = "$BASE_URL/issues-6/", name = "About"},
+    {url = "$BASE_URL/issue-6/", name = "About"},
     {url = "$BASE_URL/", name = "Archive"},
 ]
