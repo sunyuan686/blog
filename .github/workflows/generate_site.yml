@@ -55,6 +55,7 @@ jobs:
           gh release download $ZOLA_VERSION --repo getzola/zola -p '*x86_64-unknown-linux*' --output zola.tar.gz
           tar zxf zola.tar.gz && mv zola /usr/local/bin
           cp config.toml output/config.toml
+          cp search.md output/content/search.md
           cd output && zola build --base-url $BASE_URL
       - name: Setup Pages
         uses: actions/configure-pages@v5

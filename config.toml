@@ -1,16 +1,34 @@
-base_url = "https://sunyuan686.github.io/blog/"
+base_url = "https://blog.xixihaha.tech"
 generate_feeds = true
 feed_filenames = ["rss.xml"]
+build_search_index = true
+default_language = "zh"
 theme = "even"
 taxonomies = [
     {name = "categories", feed = true},
     {name = "tags", feed = true},
 ]
+
+[search]
+include_title = true
+include_description = true
+include_content = true
+include_path = false
+truncate_content_length = 100
+index_format = "elasticlunr_json"
+
 [extra]
 even_title = "sunyuan's Blog"
 even_menu = [
     {url = "$BASE_URL", name = "Home"},
+    {url = "$BASE_URL/search/", name = "Search"},
     {url = "$BASE_URL/tags/top/", name = "Top"},
     {url = "$BASE_URL/issue-6/", name = "About"},
     {url = "$BASE_URL/", name = "Archive"},
 ]
+# 搜索相关配置
+even_search = true
+even_search_placeholder = "Search what you search..."
+# 其他优化配置
+even_show_tags = true
+even_show_categories = true
