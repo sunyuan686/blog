@@ -1,11 +1,8 @@
-+++
-title = "搜索"
-description = "搜索博客文章"
-+++
+{% extends "base.html" %}
 
-# 搜索
-
+{% block content %}
 <div class="search-container">
+    <h1>{{ section.title }}</h1>
     <input type="text" id="search-input" placeholder="输入关键词搜索..." />
     <div id="search-results"></div>
 </div>
@@ -23,16 +20,18 @@ description = "搜索博客文章"
         var script = document.createElement('script');
         script.src = '/search_index.en.js';
         script.onload = function() {
-            searchIndex = elasticlunr(function() {
-                this.addField('title');
-                this.addField('description');
-                this.addField('content');
-                this.setRef('id');
-            });
-            
-            searchIndexData = window.searchIndex;
-            for (var i = 0; i < searchIndexData.length; i++) {
-                searchIndex.addDoc(searchIndexData[i]);
+            if (typeof elasticlunr !== 'undefined' && window.searchIndex) {
+                searchIndex = elasticlunr(function() {
+                    this.addField('title');
+                    this.addField('description');
+                    this.addField('content');
+                    this.setRef('id');
+                });
+                
+                searchIndexData = window.searchIndex;
+                for (var i = 0; i < searchIndexData.length; i++) {
+                    searchIndex.addDoc(searchIndexData[i]);
+                }
             }
         };
         document.head.appendChild(script);
@@ -155,4 +154,5 @@ description = "搜索博客文章"
     font-size: 14px;
     margin: 5px 0;
 }
-</style> 
+</style>
+{% endblock content %} 
