@@ -2,6 +2,7 @@ base_url = "https://blog.xixihaha.tech"
 generate_feeds = true
 feed_filenames = ["rss.xml"]
 build_search_index = true
+default_language = "en"
 theme = "even"
 taxonomies = [
     {name = "categories", feed = true},
@@ -26,7 +27,7 @@ even_menu = [
     {url = "$BASE_URL/search/", name = "Search"},
     {url = "$BASE_URL/tags/top/", name = "Top"},
     {url = "$BASE_URL/issue-6/", name = "About"},
-    {url = "$BASE_URL/", name = "Archive"},
+    {url = "$BASE_URL", name = "Archive"},
 ]
 # 搜索相关配置
 even_search = true
