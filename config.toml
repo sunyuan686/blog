@@ -2,7 +2,6 @@ base_url = "https://blog.xixihaha.tech"
 generate_feeds = true
 feed_filenames = ["rss.xml"]
 build_search_index = true
-default_language = "zh"
 theme = "even"
 taxonomies = [
     {name = "categories", feed = true},
@@ -10,11 +9,14 @@ taxonomies = [
 ]
 
 [search]
+# 包含的内容类型
 include_title = true
 include_description = true
 include_content = true
 include_path = false
+# 内容截断长度
 truncate_content_length = 100
+# 搜索索引格式
 index_format = "elasticlunr_json"
 
 [extra]

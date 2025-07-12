@@ -21,7 +21,7 @@ description = "搜索博客文章"
     // 加载搜索索引
     function loadSearchIndex() {
         var script = document.createElement('script');
-        script.src = '/search_index.zh.js';
+        script.src = '/search_index.en.js';
         script.onload = function() {
             searchIndex = elasticlunr(function() {
                 this.addField('title');
