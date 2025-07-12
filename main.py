@@ -10,11 +10,13 @@ from lxml.etree import CDATA
 from marko.ext.gfm import gfm as marko
 
 MD_HEAD = """## [BLOG](https://sunyuan686.github.io/blog/)
-<p>My personal blog([About Me](https://github.com/sunyuan686/blog/issues/6)) using issues and GitHub Actions (随意转载，无需署名)
-![image](https://github.com/user-attachments/assets/a168bf11-661e-4566-b042-7fc9544de528)</p>
-
-<p>[RSS Feed](https://raw.githubusercontent.com/{repo_name}/master/feed.xml)</p> 
-<p>All sources of inspiration from: [yihong0618](https://github.com/yihong0618/gitblog),thanks for his work!</p>
+My personal blog([About Me](https://github.com/sunyuan686/blog/issues/6)) using issues and GitHub Actions (随意转载，无需署名)
+![image](https://github.com/user-attachments/assets/a168bf11-661e-4566-b042-7fc9544de528)
+<br>
+[RSS Feed](https://raw.githubusercontent.com/{repo_name}/master/feed.xml)
+<br>
+All sources of inspiration from: [yihong0618](https://github.com/yihong0618/gitblog), thanks for his work! 
+<br>
 """
 
 BACKUP_DIR = "BACKUP"
