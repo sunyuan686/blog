@@ -3,3 +3,4 @@ nohup.out
 .git-credentials
 venv/
 .idea
+.DS_Store
