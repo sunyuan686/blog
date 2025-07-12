@@ -1,7 +1,9 @@
 ## [BLOG](https://sunyuan686.github.io/blog/)
-My personal blog([About Me](https://github.com/sunyuan686/blog/issues/6)) using issues and GitHub Actions (随意转载，无需署名)
-![image](https://github.com/user-attachments/assets/a168bf11-661e-4566-b042-7fc9544de528)
-[RSS Feed](https://raw.githubusercontent.com/sunyuan686/blog/master/feed.xml)
+<p>My personal blog([About Me](https://github.com/sunyuan686/blog/issues/6)) using issues and GitHub Actions (随意转载，无需署名)
+![image](https://github.com/user-attachments/assets/a168bf11-661e-4566-b042-7fc9544de528)</p>
+
+<p>[RSS Feed](https://raw.githubusercontent.com/sunyuan686/blog/master/feed.xml)</p> 
+<p>All sources of inspiration from: [yihong0618](https://github.com/yihong0618/gitblog),thanks for his work!</p>
 
 ## 置顶文章
 - [first top article.](https://github.com/sunyuan686/blog/issues/7)--2025-07-09
