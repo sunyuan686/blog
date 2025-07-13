@@ -1,9 +1,12 @@
 base_url = "https://blog.xixihaha.tech"
+title = "sunyuan's Blog"
+description = "个人技术博客"
 generate_feeds = true
 feed_filenames = ["rss.xml"]
 build_search_index = true
 default_language = "en"
-theme = "even"
+theme = "apollo"
+
 taxonomies = [
     {name = "categories", feed = true},
     {name = "tags", feed = true},
@@ -21,17 +24,25 @@ truncate_content_length = 100
 index_format = "elasticlunr_javascript"
 
 [extra]
-even_title = "sunyuan's Blog"
-even_menu = [
-    {url = "$BASE_URL", name = "Home"},
-    {url = "$BASE_URL/search/", name = "Search"},
-    {url = "$BASE_URL/tags/top/", name = "Top"},
-    {url = "$BASE_URL/issue-6/", name = "About"},
-    {url = "$BASE_URL", name = "Archive"},
+# 主题设置
+theme = "auto"  # auto, light, dark
+# 菜单配置
+menu = [
+    { name = "Home", url = "/", weight = 1 },
+    { name = "Search", url = "/search", weight = 2 },
+    { name = "Tags", url = "/tags", weight = 3 },
+    { name = "Categories", url = "/categories", weight = 4 },
+    { name = "About", url = "/about", weight = 5 },
 ]
-# 搜索相关配置
-even_search = true
-even_search_placeholder = "Search what you search..."
-# 其他优化配置
-even_show_tags = true
-even_show_categories = true
+# 社交链接
+socials = [
+    { name = "GitHub", url = "https://github.com/yourusername", icon = "github" },
+    { name = "RSS", url = "/rss.xml", icon = "rss" },
+]
+# 启用搜索
+search_enabled = true
+# 其他配置
+show_reading_time = true
+show_word_count = true
+show_tags = true
+show_categories = true
