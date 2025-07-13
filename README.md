@@ -28,7 +28,15 @@ All sources of inspiration from: [yihong0618](https://github.com/yihong0618/gitb
 ## TODO
 TODO list from [关于笔记体系的思考](https://github.com/sunyuan686/blog/issues/11) all done
 
-TODO list from [装修该博客](https://github.com/sunyuan686/blog/issues/10) all done
+TODO list from [装修该博客](https://github.com/sunyuan686/blog/issues/10)--8 jobs to do--0 jobs done
+- [ ] 调整样式
+- [ ] 增加搜索功能（搜索功能不简单需要再研究）
+- [ ] 增加查看所有标签功能
+- [ ] 增加归档功能 按照月份 
+- [ ] 按照标签
+- [ ] 增加统计人数，总计文章数量，用户数量，标签数量等
+- [ ] 添加icon
+- [ ] 支持暗色模式
 
 TODO list from [GitHub Page 如何使用自定义域名](https://github.com/sunyuan686/blog/issues/9) all done
 
