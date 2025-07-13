@@ -18,7 +18,7 @@ include_path = false
 # 内容截断长度
 truncate_content_length = 100
 # 搜索索引格式
-index_format = "elasticlunr_json"
+index_format = "elasticlunr_javascript"
 
 [extra]
 even_title = "sunyuan's Blog"

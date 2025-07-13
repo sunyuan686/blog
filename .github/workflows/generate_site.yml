@@ -57,6 +57,8 @@ jobs:
           cp config.toml output/config.toml
           mkdir -p output/content/search
           cp -r search/* output/content/search/
+          mkdir -p output/templates
+          cp -r templates/* output/templates/
           cd output && zola build --base-url $BASE_URL
       - name: Setup Pages
         uses: actions/configure-pages@v5
