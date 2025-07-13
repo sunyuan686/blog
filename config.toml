@@ -20,8 +20,8 @@ include_content = true
 include_path = false
 # 内容截断长度
 truncate_content_length = 100
-# 搜索索引格式
-index_format = "elasticlunr_javascript"
+# 搜索索引格式 - 使用fuse.js支持中文
+index_format = "fuse_javascript"
 
 [extra]
 # 主题设置
