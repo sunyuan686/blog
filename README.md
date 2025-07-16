@@ -10,18 +10,14 @@ All sources of inspiration from: [yihong0618](https://github.com/yihong0618/gitb
 ## 置顶文章
 - [first top article.](https://github.com/sunyuan686/blog/issues/7)--2025-07-09
 ## 最近更新
-- [代码风格好坏是要求自己的不是要求别人的
-
-](https://github.com/sunyuan686/blog/issues/15)--2025-07-15
+- [代码风格好坏是要求自己的不是要求别人的](https://github.com/sunyuan686/blog/issues/15)--2025-07-15
 - [道德只能用来约束自己，不可以要求别人！](https://github.com/sunyuan686/blog/issues/14)--2025-07-15
 - [test markdown style](https://github.com/sunyuan686/blog/issues/13)--2025-07-13
 - [test search](https://github.com/sunyuan686/blog/issues/12)--2025-07-12
 - [关于笔记体系的思考](https://github.com/sunyuan686/blog/issues/11)--2025-07-12
 ## THINK
 
-- [代码风格好坏是要求自己的不是要求别人的
-
-](https://github.com/sunyuan686/blog/issues/15)--2025-07-15
+- [代码风格好坏是要求自己的不是要求别人的](https://github.com/sunyuan686/blog/issues/15)--2025-07-15
 - [道德只能用来约束自己，不可以要求别人！](https://github.com/sunyuan686/blog/issues/14)--2025-07-15
 - [AI 太会安慰人了，像一个贴心的好老师，给你信心给你安慰](https://github.com/sunyuan686/blog/issues/4)--2025-07-06
 - [去输出去分享！](https://github.com/sunyuan686/blog/issues/3)--2025-06-23
