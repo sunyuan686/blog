@@ -54,8 +54,22 @@ jobs:
           isite generate --user $USER --repo $REPO
           gh release download $ZOLA_VERSION --repo getzola/zola -p '*x86_64-unknown-linux*' --output zola.tar.gz
           tar zxf zola.tar.gz && mv zola /usr/local/bin
+          
+          # 复制配置和内容文件
           cp config.toml output/config.toml
+          mkdir -p output/content output/static
           cp -r content/* output/content/ 2>/dev/null || true
+          
+          # 复制静态文件（图标、样式等）
+          if [ -d "static" ]; then
+            cp -r static/* output/static/ 2>/dev/null || true
+          fi
+          
+          # 复制模板文件
+          if [ -d "templates" ]; then
+            cp -r templates output/ 2>/dev/null || true
+          fi
+          
           cd output
           git init
           git submodule add https://github.com/not-matthias/apollo themes/apollo

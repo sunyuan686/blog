@@ -1,47 +1,90 @@
 base_url = "https://blog.xixihaha.tech"
 title = "sunyuan's Blog"
-description = "个人技术博客"
+description = "sunyuan's personal digital garden"
 generate_feeds = true
 feed_filenames = ["rss.xml"]
-build_search_index = true
-default_language = "en"
 theme = "apollo"
 
+# 启用搜索功能
+build_search_index = true
+
+# 分类配置
 taxonomies = [
     {name = "categories", feed = true},
     {name = "tags", feed = true},
 ]
 
+# 搜索配置
 [search]
-# 包含的内容类型
 include_title = true
 include_description = true
+include_path = true
 include_content = true
-include_path = false
-# 内容截断长度
-truncate_content_length = 100
-# 搜索索引格式 - 使用fuse.js支持中文
-index_format = "fuse_javascript"
+index_format = "elasticlunr_json"
 
 [extra]
-# 主题设置
-theme = "auto"  # auto, light, dark
+# 主题设置 - 允许用户切换明暗模式
+theme = "toggle"  # Options: "light", "dark", "auto", "toggle"
+# 网站Logo (如果有的话，请将logo文件放在static目录下)
+ logo = "logo.svg"
+# 网站图标
+favicon = "/icon/favicon.png"
+# 启用目录功能
+toc = true
+# 启用CDN加速 (可选，根据需要开启)
+use_cdn = false
+# 启用精美代码样式 (显示语言标签和复制按钮)
+fancy_code = true
+# 启用动态笔记功能 (可折叠/展开的笔记部分)
+dynamic_note = true
+# 源代码仓库配置
+#repo_url = "https://github.com/sunyuan686/blog/tree/master/content"
 # 菜单配置
 menu = [
     { name = "Home", url = "/", weight = 1 },
-    { name = "Search", url = "/search", weight = 2 },
-    { name = "Tags", url = "/tags", weight = 3 },
-    { name = "Categories", url = "/categories", weight = 4 },
-    { name = "About", url = "/about", weight = 5 },
+    { name = "Posts", url = "/posts", weight = 2 },
+    { name = "Top", url = "/tags/top", weight = 3 },
+    { name = "Tags", url = "/tags", weight = 4 },
+    { name = "Categories", url = "/categories", weight = 5 },
+    { name = "About", url = "/issue-6", weight = 6 },
+    { name = "Archive", url = "/", weight = 7 },
 ]
+
 # 社交链接
 socials = [
-    { name = "GitHub", url = "https://github.com/yourusername", icon = "github" },
+    { name = "GitHub", url = "https://github.com/sunyuan686/blog", icon = "github" },
     { name = "RSS", url = "/rss.xml", icon = "rss" },
+    { name = "Email", url = "mailto:sunyuan608@gmail.com", icon = "email" },
 ]
-# 启用搜索
-search_enabled = true
-# 其他配置
+
+
+
+# 分类页面排序配置
+[extra.taxonomies]
+sort_by = "page_count"  # 按文章数量排序
+reverse = true          # 降序排列
+
+# 分析配置 (默认关闭，需要时可以启用)
+[extra.analytics]
+enabled = false
+
+# GoatCounter 分析配置 (如果需要使用GoatCounter)
+# [extra.analytics.goatcounter]
+# user = "your_user"
+# host = "example.com"  # 可选：自定义域名
+
+# Umami 分析配置 (如果需要使用Umami)
+# [extra.analytics.umami]
+# website_id = "your-website-id"
+# host_url = "https://stats.yourwebsite.com"
+
+# 自定义样式表 (如果有自定义CSS，请将文件放在static目录下)
+# stylesheets = [
+#     "custom.css",
+#     "/css/additional.css"
+# ]
+
+# 其他显示配置
 show_reading_time = true
 show_word_count = true
 show_tags = true
