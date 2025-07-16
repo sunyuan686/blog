@@ -26,7 +26,7 @@ index_format = "elasticlunr_json"
 # 主题设置 - 允许用户切换明暗模式
 theme = "toggle"  # Options: "light", "dark", "auto", "toggle"
 # 网站Logo (如果有的话，请将logo文件放在static目录下)
- logo = "logo.svg"
+# logo = "logo.svg"
 # 网站图标
 favicon = "/icon/favicon.png"
 # 启用目录功能
@@ -42,12 +42,12 @@ dynamic_note = true
 # 菜单配置
 menu = [
     { name = "Home", url = "/", weight = 1 },
-    { name = "Posts", url = "/posts", weight = 2 },
+#    { name = "Posts", url = "/posts", weight = 2 },
     { name = "Top", url = "/tags/top", weight = 3 },
     { name = "Tags", url = "/tags", weight = 4 },
-    { name = "Categories", url = "/categories", weight = 5 },
+#    { name = "Categories", url = "/categories", weight = 5 },
     { name = "About", url = "/issue-6", weight = 6 },
-    { name = "Archive", url = "/", weight = 7 },
+#    { name = "Archive", url = "/", weight = 7 },
 ]
 
 # 社交链接
