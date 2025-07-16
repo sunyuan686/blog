@@ -31,7 +31,7 @@ All sources of inspiration from: [yihong0618](https://github.com/yihong0618/gitb
 ## TODO
 TODO list from [关于笔记体系的思考](https://github.com/sunyuan686/blog/issues/11) all done
 
-TODO list from [装修该博客](https://github.com/sunyuan686/blog/issues/10)--8 jobs to do--0 jobs done
+TODO list from [装修该博客](https://github.com/sunyuan686/blog/issues/10)--9 jobs to do--0 jobs done
 - [ ] 调整样式
 - [ ] 增加搜索功能（搜索功能不简单需要再研究）
 - [ ] 增加查看所有标签功能
@@ -40,6 +40,7 @@ TODO list from [装修该博客](https://github.com/sunyuan686/blog/issues/10)--
 - [ ] 增加统计人数，总计文章数量，用户数量，标签数量等
 - [ ] 添加icon
 - [ ] 支持暗色模式
+- [ ] 不同的主题区别挺大的。无法完整兼容自己想要的全部功能，可能得自己去二开一些主题了。现在使用过的主题有 even 和apollo。even对 github issue 有单独的适配，但是可配置项也更少一些。
 
 TODO list from [GitHub Page 如何使用自定义域名](https://github.com/sunyuan686/blog/issues/9) all done
 
