@@ -10,11 +10,11 @@ All sources of inspiration from: [yihong0618](https://github.com/yihong0618/gitb
 ## 置顶文章
 - [first top article.](https://github.com/sunyuan686/blog/issues/7)--2025-07-09
 ## 最近更新
+- [都不会写字了！](https://github.com/sunyuan686/blog/issues/16)--2025-07-18
 - [代码风格好坏是要求自己的不是要求别人的](https://github.com/sunyuan686/blog/issues/15)--2025-07-15
 - [道德只能用来约束自己，不可以要求别人！](https://github.com/sunyuan686/blog/issues/14)--2025-07-15
 - [test markdown style](https://github.com/sunyuan686/blog/issues/13)--2025-07-13
 - [test search](https://github.com/sunyuan686/blog/issues/12)--2025-07-12
-- [关于笔记体系的思考](https://github.com/sunyuan686/blog/issues/11)--2025-07-12
 ## THINK
 
 - [代码风格好坏是要求自己的不是要求别人的](https://github.com/sunyuan686/blog/issues/15)--2025-07-15
@@ -28,6 +28,9 @@ All sources of inspiration from: [yihong0618](https://github.com/yihong0618/gitb
 - [test search](https://github.com/sunyuan686/blog/issues/12)--2025-07-12
 - [use custom domain!](https://github.com/sunyuan686/blog/issues/5)--2025-07-09
 - [init test](https://github.com/sunyuan686/blog/issues/1)--2025-06-22
+## RANDOM
+
+- [都不会写字了！](https://github.com/sunyuan686/blog/issues/16)--2025-07-18
 ## TODO
 TODO list from [关于笔记体系的思考](https://github.com/sunyuan686/blog/issues/11) all done
 
