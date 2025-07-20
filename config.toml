@@ -26,7 +26,7 @@ index_format = "elasticlunr_json"
 # 主题设置 - 允许用户切换明暗模式
 theme = "toggle"  # Options: "light", "dark", "auto", "toggle"
 # 网站Logo (如果有的话，请将logo文件放在static目录下)
-# logo = "logo.svg"
+logo = "logo.svg"
 # 网站图标
 favicon = "/icon/favicon.png"
 # 启用目录功能
@@ -55,6 +55,7 @@ socials = [
     { name = "GitHub", url = "https://github.com/sunyuan686/blog", icon = "github" },
     { name = "RSS", url = "/rss.xml", icon = "rss" },
     { name = "Email", url = "mailto:sunyuan608@gmail.com", icon = "email" },
+    { name = "RuningPage", url = "https://run.xixihaha.tech", icon = "run" },
 ]
 
 
