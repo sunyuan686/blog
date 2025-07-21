@@ -8,13 +8,14 @@ All sources of inspiration from: [yihong0618](https://github.com/yihong0618/gitb
 <br>
 
 ## 置顶文章
+- [关于我的一切](https://github.com/sunyuan686/blog/issues/20)--2025-07-21
 - [first top article.](https://github.com/sunyuan686/blog/issues/7)--2025-07-09
 ## 最近更新
+- [关于我的一切](https://github.com/sunyuan686/blog/issues/20)--2025-07-21
 - [我关注了哪些人](https://github.com/sunyuan686/blog/issues/19)--2025-07-21
 - [我常使用的Mac 软件](https://github.com/sunyuan686/blog/issues/18)--2025-07-21
 - [我装了这些 Raycast 插件](https://github.com/sunyuan686/blog/issues/17)--2025-07-21
 - [都不会写字了！](https://github.com/sunyuan686/blog/issues/16)--2025-07-18
-- [代码风格好坏是要求自己的不是要求别人的](https://github.com/sunyuan686/blog/issues/15)--2025-07-15
 ## THINK
 
 - [代码风格好坏是要求自己的不是要求别人的](https://github.com/sunyuan686/blog/issues/15)--2025-07-15
