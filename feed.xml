@@ -1,450 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/sunyuan686/blog</id><title>RSS feed of sunyuan686's blog</title><updated>2025-07-18T06:18:12.216423+00:00</updated><link href="https://github.com/sunyuan686/blog"/><link href="https://raw.githubusercontent.com/sunyuan686/blog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator><entry><id>https://github.com/sunyuan686/blog/issues/16</id><title>都不会写字了！</title><updated>2025-07-18T06:18:12.537990+00:00</updated><content type="html"><![CDATA[<p>好久没有用笔写字了，今天要抄一些内容，发现好多字都不会写了，对很多笔画多的字都很陌生的感觉。
+<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/sunyuan686/blog</id><title>RSS feed of sunyuan686's blog</title><updated>2025-07-21T13:55:26.541386+00:00</updated><link href="https://github.com/sunyuan686/blog"/><link href="https://raw.githubusercontent.com/sunyuan686/blog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator><entry><id>https://github.com/sunyuan686/blog/issues/17</id><title>我装了这些 Raycast 插件</title><updated>2025-07-21T13:55:26.966060+00:00</updated><content type="html"><![CDATA[<p><a href="https://www.raycast.com/">Raycast</a> A collection of powerful productivity tools all within an extendable launcher. Fast, ergonomic and reliable.</p>
+<p>1.<a href="https://github.com/raycast/extensions/blob/ad63c90763c3729655df44355eee95fc2c33c85e/extensions/messages/README.md">Messages</a>
+如果你同时拥有 Mac 和 IPhone，且登录了同一个账号。光标聚焦输入框，全局任意地方，呼出 Raycast ，搜索 [Paste Latest OTP Code] ，便可以把你最新的验证码粘贴到光标聚焦的输入框。大大提升幸福感。</p>
+<ol start="2">
+<li>等我有时间再整理补充</li>
+</ol>
+]]></content><link href="https://github.com/sunyuan686/blog/issues/17"/><category term="TOOL &amp;&amp; RESOURCE"/><published>2025-07-21T13:55:06+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/16</id><title>都不会写字了！</title><updated>2025-07-21T13:55:27.140160+00:00</updated><content type="html"><![CDATA[<p>好久没有用笔写字了，今天要抄一些内容，发现好多字都不会写了，对很多笔画多的字都很陌生的感觉。
 习惯了电子设备的输入，需要写字的场景太少了，打字的速度越来越快，离纸笔的距离却越来越远。
 导致除了自己的名字，几乎很少去写字，慢慢的就越来越陌生了。
 所以啊，还是要时不时去用笔写字，保持手感，不然过几年怕是都不会写字了！</p>
-]]></content><link href="https://github.com/sunyuan686/blog/issues/16"/><category term="RANDOM"/><published>2025-07-18T06:17:59+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/15</id><title>代码风格好坏是要求自己的不是要求别人的</title><updated>2025-07-18T06:18:12.630663+00:00</updated><content type="html"><![CDATA[<p>代码风格好坏是要求自己的不是要求别人的！
+]]></content><link href="https://github.com/sunyuan686/blog/issues/16"/><category term="RANDOM"/><published>2025-07-18T06:17:59+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/15</id><title>代码风格好坏是要求自己的不是要求别人的</title><updated>2025-07-21T13:55:27.343462+00:00</updated><content type="html"><![CDATA[<p>代码风格好坏是要求自己的不是要求别人的！
 <a href="https://blog.yihong0618.me/issue-318/">来源</a></p>
-]]></content><link href="https://github.com/sunyuan686/blog/issues/15"/><category term="THINK"/><published>2025-07-15T16:14:31+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/14</id><title>道德只能用来约束自己，不可以要求别人！</title><updated>2025-07-18T06:18:12.729844+00:00</updated><content type="html"><![CDATA[<p>道德只能用来约束自己，不可以要求别人！</p>
+]]></content><link href="https://github.com/sunyuan686/blog/issues/15"/><category term="THINK"/><published>2025-07-15T16:14:31+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/14</id><title>道德只能用来约束自己，不可以要求别人！</title><updated>2025-07-21T13:55:27.530093+00:00</updated><content type="html"><![CDATA[<p>道德只能用来约束自己，不可以要求别人！</p>
 <p><img src="https://github.com/user-attachments/assets/bcce8ab2-ad79-402f-a7b6-593d35618142" alt="Image" /></p>
-]]></content><link href="https://github.com/sunyuan686/blog/issues/14"/><category term="THINK"/><published>2025-07-15T06:20:31+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/13</id><title>test markdown style</title><updated>2025-07-18T06:18:12.816258+00:00</updated><content type="html"><![CDATA[<p>好的，这是对您提供的苹果健康（Apple Health）数据导出文件中 <code>export.xml</code> 文件结构定义（DTD）的分析和可视化说明文档。</p>
-<p>这份文档将帮助您理解每个数据元素的含义、它包含的属性以及它们之间的关系。</p>
-<hr />
-<h1>Apple 健康 (Health) 数据导出文件 (XML) 结构解析</h1>
-<p>本文档旨在详细解释从 Apple 健康 App 导出的 <code>export.xml</code> 文件的数据结构。该文件的结构由一个 DTD (Document Type Definition) 定义，本解析将以更易于理解的方式，对 DTD 中的各个元素和属性进行说明。</p>
-<h2>概览</h2>
-<p>导出的 XML 文件以一个根元素 <code>&lt;HealthData&gt;</code> 开始，其中包含了导出的元数据（如导出时间和地区设置）、您的个人信息、以及一系列不同类型的数据记录。</p>
-<p>主要的记录类型包括：</p>
-<ul>
-<li><strong>Record</strong>: 通用的、单个时间点或时间段的数据记录（如步数、心率、体重）。</li>
-<li><strong>Correlation</strong>: 由多个 <code>Record</code> 组成的关联数据（如血压，包含收缩压和舒张压）。</li>
-<li><strong>Workout</strong>: 体能训练的详细记录。</li>
-<li><strong>ActivitySummary</strong>: 每日健身记录圆环（活动、锻炼、站立）的摘要。</li>
-<li><strong>ClinicalRecord</strong>: 来自医疗机构的临床记录（如过敏、免疫接种）。</li>
-<li><strong>Audiogram</strong>: 听力测试图。</li>
-<li><strong>VisionPrescription</strong>: 视力处方。</li>
-</ul>
-<hr />
-<h2>顶级元素</h2>
-<h3>1. <code>&lt;HealthData&gt;</code> (根元素)</h3>
-<p>这是整个 XML 文档的根容器，包含了所有健康数据。</p>
-<table>
-<thead>
-<tr>
-<th>属性</th>
-<th>说明</th>
-<th>类型/要求</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>locale</code></td>
-<td>导出数据时使用的地区和语言代码。例如 <code>en_CN</code> 表示地区为中国，语言为英文。</td>
-<td><code>CDATA</code>, 必需</td>
-</tr>
-</tbody></table><p><strong>子元素</strong>:</p>
-<ul>
-<li><code>&lt;ExportDate&gt;</code></li>
-<li><code>&lt;Me&gt;</code></li>
-<li>以及零个或多个 <code>&lt;Record&gt;</code>, <code>&lt;Correlation&gt;</code>, <code>&lt;Workout&gt;</code>, <code>&lt;ActivitySummary&gt;</code>, <code>&lt;ClinicalRecord&gt;</code>, <code>&lt;Audiogram&gt;</code>, <code>&lt;VisionPrescription&gt;</code>。</li>
-</ul>
-<h3>2. <code>&lt;ExportDate&gt;</code> (导出日期)</h3>
-<p>记录了这份数据是什么时候从“健康” App 中导出的。</p>
-<table>
-<thead>
-<tr>
-<th>属性</th>
-<th>说明</th>
-<th>类型/要求</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>value</code></td>
-<td>导出的确切日期和时间。</td>
-<td><code>CDATA</code>, 必需</td>
-</tr>
-</tbody></table><h3>3. <code>&lt;Me&gt;</code> (个人信息)</h3>
-<p>存储用户的基本健康特征信息，这些信息通常不会频繁改变。</p>
-<table>
-<thead>
-<tr>
-<th>属性</th>
-<th>说明</th>
-<th>类型/要求</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>HKCharacteristicTypeIdentifierDateOfBirth</code></td>
-<td>出生日期</td>
-<td><code>CDATA</code>, 必需</td>
-</tr>
-<tr>
-<td><code>HKCharacteristicTypeIdentifierBiologicalSex</code></td>
-<td>生理性别</td>
-<td><code>CDATA</code>, 必需</td>
-</tr>
-<tr>
-<td><code>HKCharacteristicTypeIdentifierBloodType</code></td>
-<td>血型</td>
-<td><code>CDATA</code>, 必需</td>
-</tr>
-<tr>
-<td><code>HKCharacteristicTypeIdentifierFitzpatrickSkinType</code></td>
-<td>菲茨帕特里克肤质类型（用于心率传感器算法）</td>
-<td><code>CDATA</code>, 必需</td>
-</tr>
-<tr>
-<td><code>HKCharacteristicTypeIdentifierCardioFitnessMedicationsUse</code></td>
-<td>是否使用可能影响心肺健康的药物</td>
-<td><code>CDATA</code>, 必需</td>
-</tr>
-</tbody></table><hr />
-<h2>主要数据记录类型</h2>
-<h3>4. <code>&lt;Record&gt;</code> (通用数据记录)</h3>
-<p>这是最基础也是最常见的数据单元，用于记录绝大多数健康指标。每个 <code>&lt;Record&gt;</code> 代表一个在特定时间点或时间段内测量的数据。</p>
-<p><strong>示例</strong>: 一次心率测量、一段时间内的步数总和、体重记录等。</p>
-<table>
-<thead>
-<tr>
-<th>属性</th>
-<th>说明</th>
-<th>类型/要求</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>type</code></td>
-<td>记录的数据类型标识符。例如 <code>HKQuantityTypeIdentifierStepCount</code> (步数)。</td>
-<td><code>CDATA</code>, 必需</td>
-</tr>
-<tr>
-<td><code>unit</code></td>
-<td>数据的单位。例如 <code>count</code> (次), <code>bpm</code> (次/分钟), <code>kg</code> (千克)。</td>
-<td><code>CDATA</code>, 可选</td>
-</tr>
-<tr>
-<td><code>value</code></td>
-<td>记录的数值。</td>
-<td><code>CDATA</code>, 可选</td>
-</tr>
-<tr>
-<td><code>sourceName</code></td>
-<td>数据的来源 App 或设备名称（如：iPhone, Apple Watch）。</td>
-<td><code>CDATA</code>, 必需</td>
-</tr>
-<tr>
-<td><code>sourceVersion</code></td>
-<td>来源 App 或设备的版本号。</td>
-<td><code>CDATA</code>, 可选</td>
-</tr>
-<tr>
-<td><code>device</code></td>
-<td>记录数据的具体硬件设备信息。</td>
-<td><code>CDATA</code>, 可选</td>
-</tr>
-<tr>
-<td><code>creationDate</code></td>
-<td>这条记录在数据库中被创建的时间。</td>
-<td><code>CDATA</code>, 可选</td>
-</tr>
-<tr>
-<td><code>startDate</code></td>
-<td>记录的开始时间。</td>
-<td><code>CDATA</code>, 必需</td>
-</tr>
-<tr>
-<td><code>endDate</code></td>
-<td>记录的结束时间。对于瞬时数据，<code>startDate</code> 和 <code>endDate</code> 相同。</td>
-<td><code>CDATA</code>, 必需</td>
-</tr>
-</tbody></table><p><strong>子元素</strong>:</p>
-<ul>
-<li><code>&lt;MetadataEntry&gt;</code>: 键值对形式的元数据，提供关于此记录的附加信息。</li>
-<li><code>&lt;HeartRateVariabilityMetadataList&gt;</code>: 针对心率变异性（HRV）记录，包含一系列瞬时心跳读数。</li>
-</ul>
-<h3>5. <code>&lt;Correlation&gt;</code> (关联数据)</h3>
-<p>用于将多个独立的 <code>&lt;Record&gt;</code> 元素组合成一个有意义的复合记录。</p>
-<p><strong>最常见的示例</strong>: 血压记录，它会包含一个收缩压 <code>&lt;Record&gt;</code> 和一个舒张压 <code>&lt;Record&gt;</code>。</p>
-<table>
-<thead>
-<tr>
-<th>属性</th>
-<th>说明</th>
-<th>类型/要求</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>type</code></td>
-<td>关联数据的类型标识符。例如 <code>HKCorrelationTypeIdentifierBloodPressure</code>。</td>
-<td><code>CDATA</code>, 必需</td>
-</tr>
-<tr>
-<td><code>sourceName</code></td>
-<td>数据来源 App 或设备。</td>
-<td><code>CDATA</code>, 必需</td>
-</tr>
-<tr>
-<td><code>sourceVersion</code></td>
-<td>来源版本。</td>
-<td><code>CDATA</code>, 可选</td>
-</tr>
-<tr>
-<td><code>device</code></td>
-<td>记录数据的具体硬件设备信息。</td>
-<td><code>CDATA</code>, 可选</td>
-</tr>
-<tr>
-<td><code>creationDate</code></td>
-<td>记录在数据库中被创建的时间。</td>
-<td><code>CDATA</code>, 可选</td>
-</tr>
-<tr>
-<td><code>startDate</code></td>
-<td>关联记录的开始时间。</td>
-<td><code>CDATA</code>, 必需</td>
-</tr>
-<tr>
-<td><code>endDate</code></td>
-<td>关联记录的结束时间。</td>
-<td><code>CDATA</code>, 必需</td>
-</tr>
-</tbody></table><p><strong>子元素</strong>:</p>
-<ul>
-<li><code>&lt;MetadataEntry&gt;</code>: 附加的元数据。</li>
-<li><code>&lt;Record&gt;</code>: 构成此关联数据的子记录。<strong>注意</strong>：这些子记录也会在文件的顶层作为独立的 <code>&lt;Record&gt;</code> 出现。</li>
-</ul>
-<h3>6. <code>&lt;Workout&gt;</code> (体能训练)</h3>
-<p>详细记录一次体能训练活动，如跑步、游泳或骑行。</p>
-<table>
-<thead>
-<tr>
-<th>属性</th>
-<th>说明</th>
-<th>类型/要求</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>workoutActivityType</code></td>
-<td>体能训练的类型。例如 <code>HKWorkoutActivityTypeRunning</code> (跑步)。</td>
-<td><code>CDATA</code>, 必需</td>
-</tr>
-<tr>
-<td><code>duration</code></td>
-<td>训练持续的总时长。</td>
-<td><code>CDATA</code>, 可选</td>
-</tr>
-<tr>
-<td><code>durationUnit</code></td>
-<td>时长的单位（如 <code>min</code>）。</td>
-<td><code>CDATA</code>, 可选</td>
-</tr>
-<tr>
-<td><code>totalDistance</code></td>
-<td>训练的总距离。</td>
-<td><code>CDATA</code>, 可选</td>
-</tr>
-<tr>
-<td><code>totalDistanceUnit</code></td>
-<td>距离的单位（如 <code>km</code>）。</td>
-<td><code>CDATA</code>, 可选</td>
-</tr>
-<tr>
-<td><code>totalEnergyBurned</code></td>
-<td>训练消耗的总能量（大卡）。</td>
-<td><code>CDATA</code>, 可选</td>
-</tr>
-<tr>
-<td><code>totalEnergyBurnedUnit</code></td>
-<td>能量的单位（如 <code>kcal</code>）。</td>
-<td><code>CDATA</code>, 可选</td>
-</tr>
-<tr>
-<td><code>sourceName</code>, <code>sourceVersion</code>, <code>device</code>, <code>creationDate</code>, <code>startDate</code>, <code>endDate</code></td>
-<td>与 <code>&lt;Record&gt;</code> 中的属性含义相同。</td>
-<td>-</td>
-</tr>
-</tbody></table><p><strong>子元素</strong>:</p>
-<ul>
-<li><code>&lt;MetadataEntry&gt;</code>: 元数据。</li>
-<li><code>&lt;WorkoutEvent&gt;</code>: 训练过程中的事件，如“暂停”或“继续”。</li>
-<li><code>&lt;WorkoutRoute&gt;</code>: 训练的 GPS 路线数据。它内部的 <code>&lt;FileReference&gt;</code> 指向一个单独的 <code>.gpx</code> 路线文件。</li>
-<li><code>&lt;WorkoutStatistics&gt;</code>: 训练期间各种指标的统计数据（如平均心率、最大心率等）。</li>
-</ul>
-<h3>7. <code>&lt;ActivitySummary&gt;</code> (健身记录摘要)</h3>
-<p>记录每天的“健身圆环”完成情况。每天会有一条这样的记录。</p>
-<table>
-<thead>
-<tr>
-<th>属性</th>
-<th>说明</th>
-<th>类型/要求</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>dateComponents</code></td>
-<td>记录的日期（年-月-日）。</td>
-<td><code>CDATA</code>, 可选</td>
-</tr>
-<tr>
-<td><code>activeEnergyBurned</code></td>
-<td>当天消耗的动态能量（活动圆环）。</td>
-<td><code>CDATA</code>, 可选</td>
-</tr>
-<tr>
-<td><code>activeEnergyBurnedGoal</code></td>
-<td>当天动态能量的目标值。</td>
-<td><code>CDATA</code>, 可选</td>
-</tr>
-<tr>
-<td><code>activeEnergyBurnedUnit</code></td>
-<td>能量单位（通常是 <code>kcal</code>）。</td>
-<td><code>CDATA</code>, 可选</td>
-</tr>
-<tr>
-<td><code>appleMoveTime</code></td>
-<td>当天的活动分钟数。</td>
-<td><code>CDATA</code>, 可选</td>
-</tr>
-<tr>
-<td><code>appleMoveTimeGoal</code></td>
-<td>当天活动分钟数的目标。</td>
-<td><code>CDATA</code>, 可选</td>
-</tr>
-<tr>
-<td><code>appleExerciseTime</code></td>
-<td>当天的锻炼分钟数（锻炼圆环）。</td>
-<td><code>CDATA</code>, 可选</td>
-</tr>
-<tr>
-<td><code>appleExerciseTimeGoal</code></td>
-<td>当天锻炼分钟数的目标。</td>
-<td><code>CDATA</code>, 可选</td>
-</tr>
-<tr>
-<td><code>appleStandHours</code></td>
-<td>当天的站立小时数（站立圆环）。</td>
-<td><code>CDATA</code>, 可选</td>
-</tr>
-<tr>
-<td><code>appleStandHoursGoal</code></td>
-<td>当天站立小时数的目标。</td>
-<td><code>CDATA</code>, 可选</td>
-</tr>
-</tbody></table><h3>8. <code>&lt;ClinicalRecord&gt;</code> (临床记录)</h3>
-<p>存储从兼容的医疗机构或健康 App 同步的医疗记录。</p>
-<table>
-<thead>
-<tr>
-<th>属性</th>
-<th>说明</th>
-<th>类型/要求</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>type</code></td>
-<td>临床记录的类型（如：过敏、用药、免疫接种）。</td>
-<td><code>CDATA</code>, 必需</td>
-</tr>
-<tr>
-<td><code>identifier</code></td>
-<td>记录的唯一标识符。</td>
-<td><code>CDATA</code>, 必需</td>
-</tr>
-<tr>
-<td><code>sourceName</code></td>
-<td>来源机构或 App 的名称。</td>
-<td><code>CDATA</code>, 必需</td>
-</tr>
-<tr>
-<td><code>sourceURL</code></td>
-<td>来源机构的网址。</td>
-<td><code>CDATA</code>, 必需</td>
-</tr>
-<tr>
-<td><code>fhirVersion</code></td>
-<td>记录所遵循的 FHIR (Fast Healthcare Interoperability Resources) 标准版本。</td>
-<td><code>CDATA</code>, 必需</td>
-</tr>
-<tr>
-<td><code>receivedDate</code></td>
-<td>收到此记录的日期。</td>
-<td><code>CDATA</code>, 必需</td>
-</tr>
-<tr>
-<td><code>resourceFilePath</code></td>
-<td>指向包含详细医疗数据的 JSON 文件的路径。</td>
-<td><code>CDATA</code>, 必需</td>
-</tr>
-</tbody></table><h3>9. <code>&lt;Audiogram&gt;</code> (听力图)</h3>
-<p>存储听力测试的结果。</p>
-<table>
-<thead>
-<tr>
-<th>属性</th>
-<th>说明</th>
-<th>类型/要求</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>type</code>, <code>sourceName</code>, <code>sourceVersion</code>, <code>device</code>, <code>creationDate</code>, <code>startDate</code>, <code>endDate</code></td>
-<td>与 <code>&lt;Record&gt;</code> 中的属性含义类似。</td>
-<td>-</td>
-</tr>
-</tbody></table><p><strong>子元素</strong>:</p>
-<ul>
-<li><code>&lt;MetadataEntry&gt;</code>: 元数据。</li>
-<li><code>&lt;SensitivityPoint&gt;</code>: 核心数据点，记录在特定频率下，左耳或右耳能听到的最小声音阈值。包含频率（<code>frequencyValue</code>）、听力阈值（<code>leftEarValue</code>/<code>rightEarValue</code>）等详细属性。</li>
-</ul>
-<h3>10. <code>&lt;VisionPrescription&gt;</code> (视力处方)</h3>
-<p>存储眼镜或隐形眼镜的处方信息。</p>
-<table>
-<thead>
-<tr>
-<th>属性</th>
-<th>说明</th>
-<th>类型/要求</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>type</code></td>
-<td>处方类型（如眼镜、隐形眼镜）。</td>
-<td><code>CDATA</code>, 必需</td>
-</tr>
-<tr>
-<td><code>dateIssued</code></td>
-<td>处方开具日期。</td>
-<td><code>CDATA</code>, 必需</td>
-</tr>
-<tr>
-<td><code>expirationDate</code></td>
-<td>处方过期日期。</td>
-<td><code>CDATA</code>, 可选</td>
-</tr>
-<tr>
-<td><code>brand</code></td>
-<td>镜片品牌。</td>
-<td><code>CDATA</code>, 可选</td>
-</tr>
-</tbody></table><p><strong>子元素</strong>:</p>
-<ul>
-<li><code>&lt;RightEye&gt;</code>: 右眼处方详情，包含球镜（<code>sphere</code>）、柱镜（<code>cylinder</code>）、轴位（<code>axis</code>）、瞳距（<code>farPD</code>）等。</li>
-<li><code>&lt;LeftEye&gt;</code>: 左眼处方详情，属性与 <code>&lt;RightEye&gt;</code> 相同。</li>
-<li><code>&lt;Attachment&gt;</code>: 指向处方扫描件或照片的附件。</li>
-<li><code>&lt;MetadataEntry&gt;</code>: 元数据。</li>
-</ul>
-<hr />
-<p>希望这份解析文档能帮助您更好地理解和使用您的 Apple 健康数据！</p>
-]]></content><link href="https://github.com/sunyuan686/blog/issues/13"/><category term="init-test"/><published>2025-07-13T04:31:57+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/12</id><title>test search</title><updated>2025-07-18T06:18:12.940372+00:00</updated><content type="html"><![CDATA[<p>add search function </p>
-]]></content><link href="https://github.com/sunyuan686/blog/issues/12"/><category term="init-test"/><published>2025-07-12T09:16:07+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/11</id><title>关于笔记体系的思考</title><updated>2025-07-18T06:18:13.069783+00:00</updated><content type="html"><![CDATA[<p>标签体系</p>
-]]></content><link href="https://github.com/sunyuan686/blog/issues/11"/><category term="TODO"/><published>2025-07-12T03:48:12+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/10</id><title>装修该博客</title><updated>2025-07-18T06:18:13.148004+00:00</updated><content type="html"><![CDATA[<ul>
+]]></content><link href="https://github.com/sunyuan686/blog/issues/14"/><category term="THINK"/><published>2025-07-15T06:20:31+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/11</id><title>关于笔记体系的思考</title><updated>2025-07-21T13:55:27.712566+00:00</updated><content type="html"><![CDATA[<p>标签体系</p>
+]]></content><link href="https://github.com/sunyuan686/blog/issues/11"/><category term="TODO"/><published>2025-07-12T03:48:12+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/10</id><title>装修该博客</title><updated>2025-07-21T13:55:27.885574+00:00</updated><content type="html"><![CDATA[<ul>
 <li>
 <p><input disabled="" type="checkbox"> 调整样式</p>
 </li>
@@ -473,18 +43,17 @@
 <p><input disabled="" type="checkbox"> 不同的主题区别挺大的。无法完整兼容自己想要的全部功能，可能得自己去二开一些主题了。现在使用过的主题有 even 和apollo。even对 github issue 有单独的适配，但是可配置项也更少一些。</p>
 </li>
 </ul>
-]]></content><link href="https://github.com/sunyuan686/blog/issues/10"/><category term="TODO"/><published>2025-07-09T16:14:54+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/9</id><title>GitHub Page 如何使用自定义域名</title><updated>2025-07-18T06:18:13.243758+00:00</updated><content type="html"><![CDATA[<p>null</p>
-]]></content><link href="https://github.com/sunyuan686/blog/issues/9"/><category term="TODO"/><published>2025-07-09T16:11:35+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/8</id><title>如何部署该博客！</title><updated>2025-07-18T06:18:13.339162+00:00</updated><content type="html"><![CDATA[<p>null</p>
-]]></content><link href="https://github.com/sunyuan686/blog/issues/8"/><category term="TODO"/><published>2025-07-09T16:10:17+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/7</id><title>first top article.</title><updated>2025-07-18T06:18:13.421023+00:00</updated><content type="html"><![CDATA[<ul>
+]]></content><link href="https://github.com/sunyuan686/blog/issues/10"/><category term="TODO"/><published>2025-07-09T16:14:54+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/9</id><title>GitHub Page 如何使用自定义域名</title><updated>2025-07-21T13:55:28.050058+00:00</updated><content type="html"><![CDATA[<p>null</p>
+]]></content><link href="https://github.com/sunyuan686/blog/issues/9"/><category term="TODO"/><published>2025-07-09T16:11:35+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/8</id><title>如何部署该博客！</title><updated>2025-07-21T13:55:28.319281+00:00</updated><content type="html"><![CDATA[<p>null</p>
+]]></content><link href="https://github.com/sunyuan686/blog/issues/8"/><category term="TODO"/><published>2025-07-09T16:10:17+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/7</id><title>first top article.</title><updated>2025-07-21T13:55:28.495430+00:00</updated><content type="html"><![CDATA[<ul>
 <li><a href="https://blog.xixihaha.tech">sunyuan686</a></li>
 </ul>
-]]></content><link href="https://github.com/sunyuan686/blog/issues/7"/><category term="Top"/><published>2025-07-09T13:34:40+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/6</id><title>About me</title><updated>2025-07-18T06:18:13.539588+00:00</updated><content type="html"><![CDATA[<p>Runs for fun. Not fast.</p>
+]]></content><link href="https://github.com/sunyuan686/blog/issues/7"/><category term="Top"/><published>2025-07-09T13:34:40+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/6</id><title>About me</title><updated>2025-07-21T13:55:28.649112+00:00</updated><content type="html"><![CDATA[<p>Runs for fun. Not fast.</p>
 <p>No life .Coding is passion.</p>
 <p>Vim & terminal lover.</p>
 <p>Obsessive about efficiency and high-performance code.</p>
 <p>Pursuing a pure keyboard workflow（%10 😅 ）.</p>
-<p>: wq</p>]]></content><link href="https://github.com/sunyuan686/blog/issues/6"/><category term="About"/><published>2025-07-09T13:20:23+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/5</id><title>use custom domain!</title><updated>2025-07-18T06:18:13.633469+00:00</updated><content type="html"><![CDATA[<p>[https://blog.xixihaha.tech](click here)</p>
-]]></content><link href="https://github.com/sunyuan686/blog/issues/5"/><category term="init-test"/><published>2025-07-09T12:41:56+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/4</id><title>AI 太会安慰人了，像一个贴心的好老师，给你信心给你安慰</title><updated>2025-07-18T06:18:13.737341+00:00</updated><content type="html"><![CDATA[<p>&lt; 我是一个废物。学不会算法，学习能力差，一道归并排序半天没学会，我该怎么办。</p>
+<p>: wq</p>]]></content><link href="https://github.com/sunyuan686/blog/issues/6"/><category term="About"/><published>2025-07-09T13:20:23+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/4</id><title>AI 太会安慰人了，像一个贴心的好老师，给你信心给你安慰</title><updated>2025-07-21T13:55:28.829082+00:00</updated><content type="html"><![CDATA[<p>&lt; 我是一个废物。学不会算法，学习能力差，一道归并排序半天没学会，我该怎么办。</p>
 <p>看到你这么说，我感到非常难过，但请你 一定、一定不要这样称呼自己。
 你不是废物。你只是一个在学习过程中遇到了困难，感到极度挫败的学生。这种感觉，几乎每一个学习编程和算法的人都经历过，真的，我向你保证。
 “一道归并排序半天没学会” 这件事，绝对不能定义你这个人，更不能说明你学习能力差。让我为你拆解一下这个问题，希望能帮助你走出这个困境。
@@ -530,14 +99,13 @@
 你不是废物，你只是一个在攀登一座有点陡峭的山峰的学习者。暂时卡住，不代表你登不上去。调整一下装备（学习方法），喘口气（休息一下），你完全可以继续前行。
 给自己一点时间和耐心。如果今天学不会，就睡一觉，让大脑在后台自己处理一下信息，明天可能就会有新的理解。加油！你远比你想象的要强大。</li>
 </ul>
-]]></content><link href="https://github.com/sunyuan686/blog/issues/4"/><category term="THINK"/><published>2025-07-06T16:15:16+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/3</id><title>去输出去分享！</title><updated>2025-07-18T06:18:13.898124+00:00</updated><content type="html"><![CDATA[<p>要疯狂输入然后输出，要形成闭环。
+]]></content><link href="https://github.com/sunyuan686/blog/issues/4"/><category term="THINK"/><published>2025-07-06T16:15:16+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/3</id><title>去输出去分享！</title><updated>2025-07-21T13:55:29.050210+00:00</updated><content type="html"><![CDATA[<p>要疯狂输入然后输出，要形成闭环。
 用输出倒逼自己，驱动去学习整理理解记忆。不然太容易忘了。
 还有就是干啥事情不要战线拉太长，不然就会学了后面的忘了前面的，太痛苦了。
 Respect </p>
-]]></content><link href="https://github.com/sunyuan686/blog/issues/3"/><category term="THINK"/><published>2025-06-23T16:22:01+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/2</id><title>学计算机一定要折腾，不怕麻烦。</title><updated>2025-07-18T06:18:14.068982+00:00</updated><content type="html"><![CDATA[<p>出来混，最重要的是出来。
+]]></content><link href="https://github.com/sunyuan686/blog/issues/3"/><category term="THINK"/><published>2025-06-23T16:22:01+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/2</id><title>学计算机一定要折腾，不怕麻烦。</title><updated>2025-07-21T13:55:29.282314+00:00</updated><content type="html"><![CDATA[<p>出来混，最重要的是出来。
 博客一直在纠结用什么工具，用什么主题，框架怎么搭，却忽略了最重要的是内容啊。
 看到了好多大佬再输出，也想整一个，一直懒得折腾，迟迟没有去行动，几年了最终什么都没有。
 所以说学计算机，一定要多折腾。
 从折腾从总结经验，从折腾中学习，去折腾，去感受，去寻找自己愿意折腾并真正喜欢的事情。</p>
-]]></content><link href="https://github.com/sunyuan686/blog/issues/2"/><category term="THINK"/><published>2025-06-22T16:16:13+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/1</id><title>init test</title><updated>2025-07-18T06:18:14.161960+00:00</updated><content type="html"><![CDATA[<p>hello ，this is init test</p>
-]]></content><link href="https://github.com/sunyuan686/blog/issues/1"/><category term="init-test"/><published>2025-06-22T10:35:29+00:00</published></entry></feed>
+]]></content><link href="https://github.com/sunyuan686/blog/issues/2"/><category term="THINK"/><published>2025-06-22T16:16:13+00:00</published></entry></feed>
