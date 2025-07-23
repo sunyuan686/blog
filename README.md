@@ -10,11 +10,11 @@ All sources of inspiration from: [yihong0618](https://github.com/yihong0618/gitb
 ## 置顶文章
 - [关于我的一切](https://github.com/sunyuan686/blog/issues/20)--2025-07-21
 ## 最近更新
+- [Mac 终端（Terminal）小 Tips](https://github.com/sunyuan686/blog/issues/22)--2025-07-23
 - [Warp 的窗口管理（分屏）](https://github.com/sunyuan686/blog/issues/21)--2025-07-22
 - [关于我的一切](https://github.com/sunyuan686/blog/issues/20)--2025-07-21
 - [我关注了哪些人](https://github.com/sunyuan686/blog/issues/19)--2025-07-21
 - [我常使用的Mac 软件](https://github.com/sunyuan686/blog/issues/18)--2025-07-21
-- [我装了这些 Raycast 插件](https://github.com/sunyuan686/blog/issues/17)--2025-07-21
 ## THINK
 
 - [代码风格好坏是要求自己的不是要求别人的](https://github.com/sunyuan686/blog/issues/15)--2025-07-15
@@ -30,6 +30,7 @@ All sources of inspiration from: [yihong0618](https://github.com/yihong0618/gitb
 - [都不会写字了！](https://github.com/sunyuan686/blog/issues/16)--2025-07-18
 ## TOOL && RESOURCE
 
+- [Mac 终端（Terminal）小 Tips](https://github.com/sunyuan686/blog/issues/22)--2025-07-23
 - [我关注了哪些人](https://github.com/sunyuan686/blog/issues/19)--2025-07-21
 - [我常使用的Mac 软件](https://github.com/sunyuan686/blog/issues/18)--2025-07-21
 - [我装了这些 Raycast 插件](https://github.com/sunyuan686/blog/issues/17)--2025-07-21
