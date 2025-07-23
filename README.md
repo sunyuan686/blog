@@ -10,18 +10,23 @@ All sources of inspiration from: [yihong0618](https://github.com/yihong0618/gitb
 ## 置顶文章
 - [关于我的一切](https://github.com/sunyuan686/blog/issues/20)--2025-07-21
 ## 最近更新
+- [关于Vibe coding 的思考](https://github.com/sunyuan686/blog/issues/23)--2025-07-23
 - [Mac 终端（Terminal）小 Tips](https://github.com/sunyuan686/blog/issues/22)--2025-07-23
 - [Warp 的窗口管理（分屏）](https://github.com/sunyuan686/blog/issues/21)--2025-07-22
 - [关于我的一切](https://github.com/sunyuan686/blog/issues/20)--2025-07-21
 - [我关注了哪些人](https://github.com/sunyuan686/blog/issues/19)--2025-07-21
-- [我常使用的Mac 软件](https://github.com/sunyuan686/blog/issues/18)--2025-07-21
 ## THINK
 
+- [关于Vibe coding 的思考](https://github.com/sunyuan686/blog/issues/23)--2025-07-23
 - [代码风格好坏是要求自己的不是要求别人的](https://github.com/sunyuan686/blog/issues/15)--2025-07-15
 - [道德只能用来约束自己，不可以要求别人！](https://github.com/sunyuan686/blog/issues/14)--2025-07-15
 - [AI 太会安慰人了，像一个贴心的好老师，给你信心给你安慰](https://github.com/sunyuan686/blog/issues/4)--2025-07-06
 - [去输出去分享！](https://github.com/sunyuan686/blog/issues/3)--2025-06-23
+<details><summary>显示更多</summary>
+
 - [学计算机一定要折腾，不怕麻烦。](https://github.com/sunyuan686/blog/issues/2)--2025-06-22
+</details>
+
 ## SOFTWARE
 
 - [Warp 的窗口管理（分屏）](https://github.com/sunyuan686/blog/issues/21)--2025-07-22
