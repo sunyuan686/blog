@@ -1,16 +1,255 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/sunyuan686/blog</id><title>RSS feed of sunyuan686's blog</title><updated>2025-07-23T14:56:04.229030+00:00</updated><link href="https://github.com/sunyuan686/blog"/><link href="https://raw.githubusercontent.com/sunyuan686/blog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator><entry><id>https://github.com/sunyuan686/blog/issues/23</id><title>关于Vibe coding 的思考</title><updated>2025-07-23T14:56:04.596871+00:00</updated><content type="html"><![CDATA[<p><a href="https://en.wikipedia.org/wiki/Vibe_coding">Vibe coding</a> 的时候一定要多观察 AI <strong>思考问题的思路</strong>和<strong>解决问题的过程</strong>，这才是重点，而不是 accept 的那个结果。
+<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/sunyuan686/blog</id><title>RSS feed of sunyuan686's blog</title><updated>2025-07-24T10:33:19.146337+00:00</updated><link href="https://github.com/sunyuan686/blog"/><link href="https://raw.githubusercontent.com/sunyuan686/blog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator><entry><id>https://github.com/sunyuan686/blog/issues/24</id><title>Jmeter 快速上手</title><updated>2025-07-24T10:33:19.586205+00:00</updated><content type="html"><![CDATA[<h1>JMeter 性能测试实战笔记</h1>
+<p>本文档是一份详细的 JMeter 指南，涵盖了从创建测试计划、执行测试到解读性能结果的全过程。</p>
+<h2>一、创建测试计划</h2>
+<p>一个完整的测试计划是执行性能测试的基础。下面将分步介绍如何创建一个针对文件上传接口的测试场景。</p>
+<h3><strong>第一步：添加线程组 (定义并发用户)</strong></h3>
+<p>“线程组”是用来模拟并发用户的核心元件。它决定了有多少个“虚拟用户”同时去请求您的服务。</p>
+<ol>
+<li>在左侧的树状视图中，用鼠标<strong>右键点击</strong> <code>▲ Test Plan</code>。</li>
+<li>在弹出的菜单中，依次选择 <code>添加 (Add)</code> -&gt; <code>线程 (Users)</code> -&gt; <code>线程组 (Thread Group)</code>。</li>
+<li>
+点击新创建的 <code>线程组</code>，您会在右侧看到它的配置选项。请按照如下计划来填写：<ul>
+<li><strong>线程数 (Number of Threads)</strong>: <code>20</code> (模拟20个并发用户)</li>
+<li><strong>Ramp-up Period (in seconds)</strong>: <code>10</code> (在10秒内让这20个用户全部启动)</li>
+<li><strong>循环次数 (Loop Count)</strong>: <code>100</code> (每个用户重复请求100次)</li>
+<li>也可以设置一段时间
+<img width="1434" height="785" alt="Image" src="https://github.com/user-attachments/assets/63411f08-65fb-4873-a523-fc76ecbd0d1d" /></li>
+</ul>
+</li>
+</ol>
+<h3><strong>第二步：添加 HTTP 请求 (定义要测试的接口)</strong></h3>
+<p>现在我们需要告诉 JMeter，这些虚拟用户具体要请求哪个接口。</p>
+<ol>
+<li>在左侧的树状视图中，<strong>右键点击</strong>您刚刚创建的 <code>线程组</code>。</li>
+<li>依次选择 <code>添加 (Add)</code> -&gt; <code>取样器 (Sampler)</code> -&gt; <code>HTTP 请求 (HTTP Request)</code>。</li>
+<li>
+点击新创建的 <code>HTTP 请求</code>，在右侧面板中进行核心配置：<ul>
+<li>
+<strong>Web 服务器 (Web Server)</strong><ul>
+<li><strong>服务器名称或IP (Server Name or IP)</strong>: <code>localhost</code></li>
+<li><strong>端口号 (Port Number)</strong>: <code>8080</code></li>
+</ul>
+</li>
+<li>
+<strong>HTTP 请求 (HTTP Request)</strong><ul>
+<li><strong>方法 (Method)</strong>: 选择 <code>POST</code></li>
+<li><strong>路径 (Path)</strong>: <code>/api/convert/JODConverter</code></li>
+<li><strong>重要</strong>: 如果要上传文件，记得勾选 <code>Use multipart/form-data for POST</code> 复选框。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+如果要<strong>配置上传文件</strong>:<ul>
+<li>切换到下方的 <strong><code>Files Upload</code></strong> 标签页。</li>
+<li>点击 <code>添加 (Add)</code> 按钮。</li>
+<li>
+填写文件信息：<ul>
+<li><strong>文件路径 (File Path)</strong>: 点击 <code>Browse...</code> 选择您准备好的测试Word文档。</li>
+<li><strong>参数名称 (Parameter Name)</strong>: <code>file</code> (必须和后端接口的 <code>@RequestParam(&quot;file&quot;)</code> 一致)</li>
+<li><strong>MIME 类型 (MIME Type)</strong>: <code>application/vnd.openxmlformats-officedocument.wordprocessingml.document</code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<h3><strong>第三步：添加监听器 (查看测试结果)</strong></h3>
+<p>没有监听器，我们就看不到任何测试结果。</p>
+<ol>
+<li>再次<strong>右键点击</strong> <code>线程组</code>。</li>
+<li>
+依次选择 <code>添加 (Add)</code> -&gt; <code>监听器 (Listener)</code> -&gt; <code>聚合报告 (Aggregate Report)</code>。<ul>
+<li>这个监听器会在测试运行时，以表格形式实时汇总和展示<strong>平均响应时间、吞吐量、错误率</strong>等核心性能指标。</li>
+</ul>
+</li>
+<li>
+(可选，推荐用于调试) <strong>右键点击</strong> <code>线程组</code> -&gt; <code>添加 (Add)</code> -&gt; <code>监听器 (Listener)</code> -&gt; <code>查看结果树 (View Results Tree)</code>。<ul>
+<li>这个监听器可以看到每一次请求的详细信息。<strong>注意</strong>：在正式进行大并发量测试时，请<strong>禁用</strong>它（右键点击 -&gt; 禁用），因为它会消耗较多内存。</li>
+</ul>
+</li>
+</ol>
+<hr />
+<h2>二、执行测试与保存结果</h2>
+<p>测试计划创建好后，下一步就是执行它并保存结果以供分析。推荐使用命令行模式执行正式的压测。</p>
+<h3><strong>方法一：通过 GUI 保存结果</strong></h3>
+<p>此方法适用于快速查看和调试，不推荐用于正式压测。</p>
+<ol>
+<li><strong>在 JMeter 图形界面中，选中您的 <code>聚合报告 (Aggregate Report)</code> 监听器。</strong></li>
+<li><strong>在右侧的配置面板中，找到 <code>文件名 (Filename)</code> 输入框。</strong></li>
+<li><strong>点击 <code>浏览 (Browse)...</code> 按钮，选择一个路径并输入一个文件名</strong>，例如 <code>/Users/sunyuan/develop/project/word2pdf/performance_results/jmeter_results.csv</code>。 每次运行测试时，结果会自动追加到这个文件中。</li>
+</ol>
+<h3><strong>方法二：使用命令行执行压测（推荐的最佳实践）</strong></h3>
+<p>虽然图形化界面便于设计脚本，但官方强烈建议使用<strong>命令行模式</strong>来执行真正的压力测试。这样做可以避免 GUI 带来的额外性能开销，确保测试结果的纯净和准确。</p>
+<ol>
+<li>
+<p><strong>保存您的 JMeter 测试计划</strong>:</p>
+<ul>
+<li>在 JMeter 图形界面中，点击 <code>文件 (File)</code> -&gt; <code>保存测试计划为 (Save Test Plan as)</code>。</li>
+<li>将测试计划保存为一个 <code>.jmx</code> 文件，例如 <code>/Users/sunyuan/develop/project/word2pdf/shell/test_plan.jmx</code>。</li>
+</ul>
+</li>
+<li>
+<p><strong>通过命令行执行</strong>:</p>
+<ul>
+<li>打开一个新的终端窗口。</li>
+<li>使用以下命令来执行测试。这个命令会自动处理结果文件的保存和后续的 HTML 报告生成。</li>
+</ul>
+<p>Bash</p>
+<pre><code># 定义变量，方便管理
+BASE_DIR=&quot;/Users/sunyuan/develop/project/word2pdf&quot;
+TEST_PLAN=&quot;${BASE_DIR}/shell/test_plan.jmx&quot;
+RESULT_FILE=&quot;${BASE_DIR}/performance_results/jmeter_results.csv&quot;
+REPORT_DIR=&quot;${BASE_DIR}/performance_results/html_report&quot;
+
+# 确保结果文件和报告目录是干净的 (JMeter要求报告目录为空)
+rm -f $RESULT_FILE
+rm -rf $REPORT_DIR
+mkdir -p $REPORT_DIR
+
+# 执行 JMeter 命令行压测
+jmeter -n -t $TEST_PLAN -l $RESULT_FILE -e -o $REPORT_DIR
+</code></pre>
+<p><strong>命令参数解析</strong>:</p>
+<ul>
+<li><code>-n</code>: <strong>n</strong>on-GUI mode，以无图形界面模式运行。</li>
+<li><code>-t &lt;file.jmx&gt;</code>: <strong>t</strong>est plan，指定要运行的测试计划文件。</li>
+<li><code>-l &lt;file.csv&gt;</code>: <strong>l</strong>og file，指定用于记录测试结果的日志文件。</li>
+<li><code>-e</code>: <strong>e</strong>nd，表示在测试结束后生成 HTML 报告。</li>
+<li><code>-o &lt;directory&gt;</code>: <strong>o</strong>utput directory，指定存放 HTML 报告的输出目录。<strong>此目录必须为空或不存在</strong>。</li>
+</ul>
+</li>
+</ol>
+<hr />
+<h2>三、结果分析</h2>
+<p>测试完成后，需要对结果数据进行详细解读，以评估系统性能。</p>
+<h3><strong>聚合报告 (Aggregate Report) 结果解读</strong></h3>
+<ul>
+<li>
+<p><strong><code>Label</code></strong>:是我们测试的请求的标签或名称。</p>
+</li>
+<li>
+<p><strong><code># Samples</code> (样本数)</strong>: 总共完成了 <strong>200 次</strong>请求。</p>
+</li>
+<li>
+<p><strong><code>Average</code> (平均响应时间)</strong>: 所有请求的<strong>平均响应时间是 1808 毫秒</strong> (约 1.81 秒)。这是评估服务处理速度最核心、最直观的指标。</p>
+</li>
+<li>
+<p><strong><code>Median</code> (中位数)</strong>: 50% 的用户响应时间低于 <strong>1754 毫秒</strong>。比平均值更能抵抗极端值的影响。</p>
+</li>
+<li>
+<p><strong><code>90% Line</code> (90百分位)</strong>: 90% 的请求响应时间都在 <strong>2060 毫秒</strong> (2.06 秒) 以内。</p>
+</li>
+<li>
+<p><strong><code>95% Line</code> (95百分位)</strong>: 95% 的请求响应时间都在 <strong>2183 毫秒</strong> (2.18 秒) 以内。这是衡量服务稳定性的一个常用指标 (SLI/SLO)。</p>
+</li>
+<li>
+<p><strong><code>99% Line</code> (99百分位)</strong>: 99% 的请求响应时间都在 <strong>2420 毫秒</strong> (2.42 秒) 以内，帮助我们了解最慢请求的情况。</p>
+</li>
+<li>
+<p><strong><code>Min</code> / <code>Maximum</code> (最小/最大响应时间)</strong>: 最快的一次花费了 <strong>1.58 秒</strong>，最慢的一次花费了 <strong>2.83 秒</strong>。</p>
+</li>
+<li>
+<p><strong><code>Error %</code> (错误率)</strong>: <strong>0.00%</strong> 是一个完美的指标！说明在当前并发压力下，服务非常稳定。</p>
+</li>
+<li>
+<p><strong><code>Throughput</code> (吞吐量)</strong>: 服务器<strong>每秒钟能成功处理 1.1 个</strong>转换请求。这是衡量服务器处理能力的核心指标，通常也称为 QPS (Queries Per Second)。</p>
+</li>
+<li>
+<p><strong><code>Received/Sent KB/sec</code></strong>: 每秒接收和发送的数据量。发送 (<code>Sent</code>) 远大于接收 (<code>Received</code>)，符合上传大文件的场景。</p>
+</li>
+</ul>
+<h3><strong><code>jmeter_results.csv</code> 文件列名分析</strong></h3>
+<p>CSV 文件记录了每一次请求的详细数据，便于进行更深入的分析。</p>
+<table>
+<thead>
+<tr>
+<th>列名</th>
+<th>示例值</th>
+<th>含义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><code>responseCode</code></strong></td>
+<td><code>200</code></td>
+<td>HTTP 响应状态码。<code>200</code> 代表 <strong>OK (成功)</strong>。</td>
+</tr>
+<tr>
+<td><strong><code>threadName</code></strong></td>
+<td><code>word2pdf thread group 1-1</code></td>
+<td>发出请求的具体<strong>虚拟用户（线程）的名称</strong>。</td>
+</tr>
+<tr>
+<td><strong><code>dataType</code></strong></td>
+<td><code>text</code></td>
+<td>响应数据的类型。</td>
+</tr>
+<tr>
+<td><strong><code>success</code></strong></td>
+<td><code>true</code></td>
+<td>请求是否成功。错误率 (<code>Error %</code>) 就是根据此列计算的。</td>
+</tr>
+<tr>
+<td><strong><code>bytes</code></strong></td>
+<td><code>740</code></td>
+<td><strong>响应数据</strong>的大小（字节）。成功后只返回小段 JSON，所以值很小。</td>
+</tr>
+<tr>
+<td><strong><code>sentBytes</code></strong></td>
+<td><code>1691146</code></td>
+<td><strong>发送数据</strong>的大小（字节）。此值很大，代表上传的 Word 文档大小。</td>
+</tr>
+<tr>
+<td><strong><code>grpThreads</code></strong></td>
+<td><code>2</code></td>
+<td>请求发生时，其所在<strong>线程组</strong>内的活跃线程数。</td>
+</tr>
+<tr>
+<td><strong><code>allThreads</code></strong></td>
+<td><code>2</code></td>
+<td>请求发生时，<strong>整个测试计划</strong>中的总活跃线程数。</td>
+</tr>
+<tr>
+<td><strong><code>URL</code></strong></td>
+<td><code>http://127.0.0.1:8080/...</code></td>
+<td>请求的完整 URL 地址。</td>
+</tr>
+<tr>
+<td><strong><code>Latency</code></strong></td>
+<td><code>1792</code></td>
+<td><strong>(重要指标)</strong> 从发出请求到接收到响应<strong>第一个字节</strong>的时间 (ms)，主要衡量<strong>服务器端处理时间</strong>。</td>
+</tr>
+<tr>
+<td><strong><code>Connect</code></strong></td>
+<td><code>0</code></td>
+<td>建立 TCP 连接的时间 (ms)。通常只有首个请求耗时，后续复用连接，时间为 0。</td>
+</tr>
+</tbody></table><hr />
+<h2>四、常见问题与技巧</h2>
+<h3>Q: 点击绿色启动按钮时，应该选中哪个元件？</h3>
+<p><strong>A: 您不需要选中任何特定的元件。</strong></p>
+<p>JMeter 的启动按钮（绿色的三角箭头 <code>▶</code>）是针对<strong>整个测试计划 (Test Plan)</strong> 生效的。无论您当前在左侧的树状视图中选中了哪个元件，当您点击启动按钮时，JMeter 都会从最顶层的 <code>Test Plan</code> 开始，执行其中所有<strong>未被禁用</strong>的元件。</p>
+<p><strong>如果不测试的元件，要禁用</strong></p>
+<h3>关于启动和停止的额外提示</h3>
+<ul>
+<li><strong>启动 (Start)</strong>: 绿色的 <code>▶</code> 按钮。</li>
+<li><strong>停止 (Stop)</strong>: 红色的 <code>■</code> 按钮。这会<strong>立即</strong>停止所有线程，可能会中断正在进行的请求。</li>
+<li><strong>优雅地停止 (Shutdown)</strong>: <code>停止</code> 按钮旁边的那个灰色 <code>■</code> 按钮。这会允许当前正在执行的请求完成后再停止所有线程，是<strong>更推荐的停止方式</strong>。</li>
+<li><strong>清除结果 (Clear All)</strong>: 工具栏上的扫帚图标 <code>🧹</code>。点击它会清除所有监听器（如 <code>聚合报告</code>、<code>查看结果树</code>）中已有的测试结果，方便您开始一次全新的测试。</li>
+</ul>
+]]></content><link href="https://github.com/sunyuan686/blog/issues/24"/><category term="SOFTWARE"/><published>2025-07-24T10:33:00+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/23</id><title>关于Vibe coding 的思考</title><updated>2025-07-24T10:33:19.838951+00:00</updated><content type="html"><![CDATA[<p><a href="https://en.wikipedia.org/wiki/Vibe_coding">Vibe coding</a> 的时候一定要多观察 AI <strong>思考问题的思路</strong>和<strong>解决问题的过程</strong>，这才是重点，而不是 accept 的那个结果。
 看 AI 是如何一步一步分析问题、实现需求、遇到问题解决问题。
 仔细观察 AI 的输出结果去总结去记录，和 AI 对话会有大量的信息，从每一次的对话中总结经验，整理然后逐步内化成自己的能力
 方法层面的东西远比结果更重要。
 还有就是代码跑通了，还要多看看代码，去整理去归纳，这样才能有所收获，不然即使代码跑通了，也没什么用。我们要的不是真正的 VIbe，而是 knowledge。
 最后的最后无脑 ask、 run、accept就是再浪费时间。</p>
-]]></content><link href="https://github.com/sunyuan686/blog/issues/23"/><category term="THINK"/><published>2025-07-23T14:55:37+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/22</id><title>Mac 终端（Terminal）小 Tips</title><updated>2025-07-23T14:56:04.766924+00:00</updated><content type="html"><![CDATA[<ol>
+]]></content><link href="https://github.com/sunyuan686/blog/issues/23"/><category term="THINK"/><published>2025-07-23T14:55:37+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/22</id><title>Mac 终端（Terminal）小 Tips</title><updated>2025-07-24T10:33:20.057142+00:00</updated><content type="html"><![CDATA[<ol>
 <li>再终端中输入 <code>open .</code> 便可快速再 Finder 中打开当前文件</li>
 <li>
 </li>
 </ol>
-]]></content><link href="https://github.com/sunyuan686/blog/issues/22"/><category term="TOOL &amp;&amp; RESOURCE"/><published>2025-07-23T14:42:32+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/21</id><title>Warp 的窗口管理（分屏）</title><updated>2025-07-23T14:56:04.894072+00:00</updated><content type="html"><![CDATA[<p><a href="https://www.warp.dev/">Warp</a>  is the fastest way to build with multiple AI agents—from writing code to shipping it. The best overall coding and terminal agent.</p>
+]]></content><link href="https://github.com/sunyuan686/blog/issues/22"/><category term="TOOL &amp;&amp; RESOURCE"/><published>2025-07-23T14:42:32+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/21</id><title>Warp 的窗口管理（分屏）</title><updated>2025-07-24T10:33:20.235531+00:00</updated><content type="html"><![CDATA[<p><a href="https://www.warp.dev/">Warp</a>  is the fastest way to build with multiple AI agents—from writing code to shipping it. The best overall coding and terminal agent.</p>
 <p>以下快捷键都以Mac 为主，Window 烦请自行Google。
 1.再选中的窗口向右添加窗口 : <code>Command + D</code></p>
 <img width="1192" height="768" alt="Image" src="https://github.com/user-attachments/assets/91b4d4ad-b4bd-414c-9697-dbfa4cc33356" />
@@ -18,13 +257,13 @@
 <img width="1192" height="768" alt="Image" src="https://github.com/user-attachments/assets/b9b57419-e29b-4163-9c1b-3c2ea355b10f" />
 <p>3.如果你忘了快捷键 ，请记住 <code>Command + P</code> 打开搜索框输入 split，点击对应的选项即可实现分屏</p>
 <img width="1192" height="768" alt="Image" src="https://github.com/user-attachments/assets/0d5c5bc5-5eac-4ed3-8375-7c45469909d3" />
-]]></content><link href="https://github.com/sunyuan686/blog/issues/21"/><category term="SOFTWARE"/><published>2025-07-22T10:05:53+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/20</id><title>关于我的一切</title><updated>2025-07-23T14:56:05.016162+00:00</updated><content type="html"><![CDATA[<p>我是一个喜欢收集各种工具和资料的人，但是很少整理和分享，这好吗？这不好</p>
+]]></content><link href="https://github.com/sunyuan686/blog/issues/21"/><category term="SOFTWARE"/><published>2025-07-22T10:05:53+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/20</id><title>关于我的一切</title><updated>2025-07-24T10:33:20.490485+00:00</updated><content type="html"><![CDATA[<p>我是一个喜欢收集各种工具和资料的人，但是很少整理和分享，这好吗？这不好</p>
 <p>1.<a href="https://blog.xixihaha.tech/issue-18/">我常使用的Mac 软件</a>
 2.<a href="https://blog.xixihaha.tech/issue-19/">我关注了哪些人</a>
 3.[我读过的书]
 4.[我跑步听过的电台]
 5.[我和我的家属]</p>
-]]></content><link href="https://github.com/sunyuan686/blog/issues/20"/><category term="Top"/><published>2025-07-21T14:27:28+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/19</id><title>我关注了哪些人</title><updated>2025-07-23T14:56:05.151313+00:00</updated><content type="html"><![CDATA[<p>感谢所有人的输出，感谢互联网，感谢伟大的中国🇨🇳</p>
+]]></content><link href="https://github.com/sunyuan686/blog/issues/20"/><category term="Top"/><published>2025-07-21T14:27:28+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/19</id><title>我关注了哪些人</title><updated>2025-07-24T10:33:20.684653+00:00</updated><content type="html"><![CDATA[<p>感谢所有人的输出，感谢互联网，感谢伟大的中国🇨🇳</p>
 <ol>
 <li><a href="https://blog.yihong0618.me/">yihong0618</a> : 喜欢王小波和跑步。</li>
 <li><a href="https://www.owenyoung.com/">owen</a> : 沉浸式翻译作者，追求“注意力自由”。</li>
@@ -33,7 +272,7 @@
 <ol start="2">
 <li>如果我们有共同喜欢的人，欢迎一起交流 <a href="mailto:sunyuan608@gmail.com"> 📧 </a></li>
 </ol>
-]]></content><link href="https://github.com/sunyuan686/blog/issues/19"/><category term="TOOL &amp;&amp; RESOURCE"/><published>2025-07-21T14:16:06+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/18</id><title>我常使用的Mac 软件</title><updated>2025-07-23T14:56:05.247387+00:00</updated><content type="html"><![CDATA[<h2>一、 工具类</h2>
+]]></content><link href="https://github.com/sunyuan686/blog/issues/19"/><category term="TOOL &amp;&amp; RESOURCE"/><published>2025-07-21T14:16:06+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/18</id><title>我常使用的Mac 软件</title><updated>2025-07-24T10:33:20.877011+00:00</updated><content type="html"><![CDATA[<h2>一、 工具类</h2>
 <p>🆓 免费</p>
 <ol>
 <li><a href="https://folivora.ai/keyboardcleantool">KeyboardCleanTool</a> : 一个清理Mac keyboard的小工具</li>
@@ -46,20 +285,20 @@
 <li><a href="https://www.raycast.com/">Ratcast</a> : Mac必装的聚焦搜索（快捷启动）工具，我装了这些插件:<a href="https://blog.xixihaha.tech/issue-17/">☞</a></li>
 </ol>
 <p>先写到这里，我会长期更新补充，如果你看到了，欢迎催我，也可以一起交流 <a href="mailto:sunyuan608@gmail.com"> 📧 </a></p>
-]]></content><link href="https://github.com/sunyuan686/blog/issues/18"/><category term="TOOL &amp;&amp; RESOURCE"/><published>2025-07-21T14:01:31+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/17</id><title>我装了这些 Raycast 插件</title><updated>2025-07-23T14:56:05.348728+00:00</updated><content type="html"><![CDATA[<p><a href="https://www.raycast.com/">Raycast</a> A collection of powerful productivity tools all within an extendable launcher. Fast, ergonomic and reliable.</p>
+]]></content><link href="https://github.com/sunyuan686/blog/issues/18"/><category term="TOOL &amp;&amp; RESOURCE"/><published>2025-07-21T14:01:31+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/17</id><title>我装了这些 Raycast 插件</title><updated>2025-07-24T10:33:21.048533+00:00</updated><content type="html"><![CDATA[<p><a href="https://www.raycast.com/">Raycast</a> A collection of powerful productivity tools all within an extendable launcher. Fast, ergonomic and reliable.</p>
 <p>1.<a href="https://github.com/raycast/extensions/blob/ad63c90763c3729655df44355eee95fc2c33c85e/extensions/messages/README.md">Messages</a>
 如果你同时拥有 Mac 和 IPhone，且登录了同一个账号。光标聚焦输入框，全局任意地方，呼出 Raycast ，搜索 [Paste Latest OTP Code] ，便可以把你最新的验证码粘贴到光标聚焦的输入框。大大提升幸福感。
 2. 等我有时间再整理补充，如果你看到了，欢迎催我 <a href="mailto:sunyuan608@gmail.com"> 📧 </a></p>
-]]></content><link href="https://github.com/sunyuan686/blog/issues/17"/><category term="TOOL &amp;&amp; RESOURCE"/><published>2025-07-21T13:55:06+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/16</id><title>都不会写字了！</title><updated>2025-07-23T14:56:05.468251+00:00</updated><content type="html"><![CDATA[<p>好久没有用笔写字了，今天要抄一些内容，发现好多字都不会写了，对很多笔画多的字都很陌生的感觉。
+]]></content><link href="https://github.com/sunyuan686/blog/issues/17"/><category term="TOOL &amp;&amp; RESOURCE"/><published>2025-07-21T13:55:06+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/16</id><title>都不会写字了！</title><updated>2025-07-24T10:33:21.249269+00:00</updated><content type="html"><![CDATA[<p>好久没有用笔写字了，今天要抄一些内容，发现好多字都不会写了，对很多笔画多的字都很陌生的感觉。
 习惯了电子设备的输入，需要写字的场景太少了，打字的速度越来越快，离纸笔的距离却越来越远。
 导致除了自己的名字，几乎很少去写字，慢慢的就越来越陌生了。
 所以啊，还是要时不时去用笔写字，保持手感，不然过几年怕是都不会写字了！</p>
-]]></content><link href="https://github.com/sunyuan686/blog/issues/16"/><category term="RANDOM"/><published>2025-07-18T06:17:59+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/15</id><title>代码风格好坏是要求自己的不是要求别人的</title><updated>2025-07-23T14:56:05.580681+00:00</updated><content type="html"><![CDATA[<p>代码风格好坏是要求自己的不是要求别人的！
+]]></content><link href="https://github.com/sunyuan686/blog/issues/16"/><category term="RANDOM"/><published>2025-07-18T06:17:59+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/15</id><title>代码风格好坏是要求自己的不是要求别人的</title><updated>2025-07-24T10:33:21.430466+00:00</updated><content type="html"><![CDATA[<p>代码风格好坏是要求自己的不是要求别人的！
 <a href="https://blog.yihong0618.me/issue-318/">来源</a></p>
-]]></content><link href="https://github.com/sunyuan686/blog/issues/15"/><category term="THINK"/><published>2025-07-15T16:14:31+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/14</id><title>道德只能用来约束自己，不可以要求别人！</title><updated>2025-07-23T14:56:05.705166+00:00</updated><content type="html"><![CDATA[<p>道德只能用来约束自己，不可以要求别人！</p>
+]]></content><link href="https://github.com/sunyuan686/blog/issues/15"/><category term="THINK"/><published>2025-07-15T16:14:31+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/14</id><title>道德只能用来约束自己，不可以要求别人！</title><updated>2025-07-24T10:33:21.612825+00:00</updated><content type="html"><![CDATA[<p>道德只能用来约束自己，不可以要求别人！</p>
 <p><img src="https://github.com/user-attachments/assets/bcce8ab2-ad79-402f-a7b6-593d35618142" alt="Image" /></p>
-]]></content><link href="https://github.com/sunyuan686/blog/issues/14"/><category term="THINK"/><published>2025-07-15T06:20:31+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/11</id><title>关于笔记体系的思考</title><updated>2025-07-23T14:56:05.828294+00:00</updated><content type="html"><![CDATA[<p>标签体系</p>
-]]></content><link href="https://github.com/sunyuan686/blog/issues/11"/><category term="TODO"/><published>2025-07-12T03:48:12+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/10</id><title>装修该博客</title><updated>2025-07-23T14:56:05.977832+00:00</updated><content type="html"><![CDATA[<ul>
+]]></content><link href="https://github.com/sunyuan686/blog/issues/14"/><category term="THINK"/><published>2025-07-15T06:20:31+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/11</id><title>关于笔记体系的思考</title><updated>2025-07-24T10:33:21.804410+00:00</updated><content type="html"><![CDATA[<p>标签体系</p>
+]]></content><link href="https://github.com/sunyuan686/blog/issues/11"/><category term="TODO"/><published>2025-07-12T03:48:12+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/10</id><title>装修该博客</title><updated>2025-07-24T10:33:21.988341+00:00</updated><content type="html"><![CDATA[<ul>
 <li>
 <p><input disabled="" type="checkbox"> 调整样式</p>
 </li>
@@ -88,14 +327,14 @@
 <p><input disabled="" type="checkbox"> 不同的主题区别挺大的。无法完整兼容自己想要的全部功能，可能得自己去二开一些主题了。现在使用过的主题有 even 和apollo。even对 github issue 有单独的适配，但是可配置项也更少一些。</p>
 </li>
 </ul>
-]]></content><link href="https://github.com/sunyuan686/blog/issues/10"/><category term="TODO"/><published>2025-07-09T16:14:54+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/9</id><title>GitHub Page 如何使用自定义域名</title><updated>2025-07-23T14:56:06.117007+00:00</updated><content type="html"><![CDATA[<p>null</p>
-]]></content><link href="https://github.com/sunyuan686/blog/issues/9"/><category term="TODO"/><published>2025-07-09T16:11:35+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/8</id><title>如何部署该博客！</title><updated>2025-07-23T14:56:06.221887+00:00</updated><content type="html"><![CDATA[<p>null</p>
-]]></content><link href="https://github.com/sunyuan686/blog/issues/8"/><category term="TODO"/><published>2025-07-09T16:10:17+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/6</id><title>About me</title><updated>2025-07-23T14:56:06.314511+00:00</updated><content type="html"><![CDATA[<p>Runs for fun. Not fast.</p>
+]]></content><link href="https://github.com/sunyuan686/blog/issues/10"/><category term="TODO"/><published>2025-07-09T16:14:54+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/9</id><title>GitHub Page 如何使用自定义域名</title><updated>2025-07-24T10:33:22.172242+00:00</updated><content type="html"><![CDATA[<p>null</p>
+]]></content><link href="https://github.com/sunyuan686/blog/issues/9"/><category term="TODO"/><published>2025-07-09T16:11:35+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/8</id><title>如何部署该博客！</title><updated>2025-07-24T10:33:22.390643+00:00</updated><content type="html"><![CDATA[<p>null</p>
+]]></content><link href="https://github.com/sunyuan686/blog/issues/8"/><category term="TODO"/><published>2025-07-09T16:10:17+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/6</id><title>About me</title><updated>2025-07-24T10:33:22.558132+00:00</updated><content type="html"><![CDATA[<p>Runs for fun. Not fast.</p>
 <p>No life .Coding is passion.</p>
 <p>Vim & terminal lover.</p>
 <p>Obsessive about efficiency and high-performance code.</p>
 <p>Pursuing a pure keyboard workflow（%10 😅 ）.</p>
-<p>: wq</p>]]></content><link href="https://github.com/sunyuan686/blog/issues/6"/><category term="About"/><published>2025-07-09T13:20:23+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/4</id><title>AI 太会安慰人了，像一个贴心的好老师，给你信心给你安慰</title><updated>2025-07-23T14:56:06.440416+00:00</updated><content type="html"><![CDATA[<p>&lt; 我是一个废物。学不会算法，学习能力差，一道归并排序半天没学会，我该怎么办。</p>
+<p>: wq</p>]]></content><link href="https://github.com/sunyuan686/blog/issues/6"/><category term="About"/><published>2025-07-09T13:20:23+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/4</id><title>AI 太会安慰人了，像一个贴心的好老师，给你信心给你安慰</title><updated>2025-07-24T10:33:22.769184+00:00</updated><content type="html"><![CDATA[<p>&lt; 我是一个废物。学不会算法，学习能力差，一道归并排序半天没学会，我该怎么办。</p>
 <p>看到你这么说，我感到非常难过，但请你 一定、一定不要这样称呼自己。
 你不是废物。你只是一个在学习过程中遇到了困难，感到极度挫败的学生。这种感觉，几乎每一个学习编程和算法的人都经历过，真的，我向你保证。
 “一道归并排序半天没学会” 这件事，绝对不能定义你这个人，更不能说明你学习能力差。让我为你拆解一下这个问题，希望能帮助你走出这个困境。
@@ -141,11 +380,11 @@
 你不是废物，你只是一个在攀登一座有点陡峭的山峰的学习者。暂时卡住，不代表你登不上去。调整一下装备（学习方法），喘口气（休息一下），你完全可以继续前行。
 给自己一点时间和耐心。如果今天学不会，就睡一觉，让大脑在后台自己处理一下信息，明天可能就会有新的理解。加油！你远比你想象的要强大。</li>
 </ul>
-]]></content><link href="https://github.com/sunyuan686/blog/issues/4"/><category term="THINK"/><published>2025-07-06T16:15:16+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/3</id><title>去输出去分享！</title><updated>2025-07-23T14:56:06.552241+00:00</updated><content type="html"><![CDATA[<p>要疯狂输入然后输出，要形成闭环。
+]]></content><link href="https://github.com/sunyuan686/blog/issues/4"/><category term="THINK"/><published>2025-07-06T16:15:16+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/3</id><title>去输出去分享！</title><updated>2025-07-24T10:33:22.955659+00:00</updated><content type="html"><![CDATA[<p>要疯狂输入然后输出，要形成闭环。
 用输出倒逼自己，驱动去学习整理理解记忆。不然太容易忘了。
 还有就是干啥事情不要战线拉太长，不然就会学了后面的忘了前面的，太痛苦了。
 Respect </p>
-]]></content><link href="https://github.com/sunyuan686/blog/issues/3"/><category term="THINK"/><published>2025-06-23T16:22:01+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/2</id><title>学计算机一定要折腾，不怕麻烦。</title><updated>2025-07-23T14:56:06.704163+00:00</updated><content type="html"><![CDATA[<p>出来混，最重要的是出来。
+]]></content><link href="https://github.com/sunyuan686/blog/issues/3"/><category term="THINK"/><published>2025-06-23T16:22:01+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/2</id><title>学计算机一定要折腾，不怕麻烦。</title><updated>2025-07-24T10:33:23.121812+00:00</updated><content type="html"><![CDATA[<p>出来混，最重要的是出来。
 博客一直在纠结用什么工具，用什么主题，框架怎么搭，却忽略了最重要的是内容啊。
 看到了好多大佬再输出，也想整一个，一直懒得折腾，迟迟没有去行动，几年了最终什么都没有。
 所以说学计算机，一定要多折腾。
