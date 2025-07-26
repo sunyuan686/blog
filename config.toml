@@ -56,6 +56,7 @@ socials = [
     { name = "RSS", url = "/rss.xml", icon = "rss" },
     { name = "Email", url = "mailto:sunyuan608@gmail.com", icon = "email" },
     { name = "RuningPage", url = "https://run.xixihaha.tech", icon = "run" },
+    { name = "Twitter", url = "https://x.xixihaha.tech", icon = "twitter" },
 ]
 
 
