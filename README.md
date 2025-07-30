@@ -10,11 +10,11 @@ All sources of inspiration from: [yihong0618](https://github.com/yihong0618/gitb
 ## 置顶文章
 - [关于我的一切](https://github.com/sunyuan686/blog/issues/20)--2025-07-21
 ## 最近更新
+- [通俗易懂理解AI 相关概念](https://github.com/sunyuan686/blog/issues/25)--2025-07-30
 - [Jmeter 快速上手](https://github.com/sunyuan686/blog/issues/24)--2025-07-24
 - [关于Vibe coding 的思考](https://github.com/sunyuan686/blog/issues/23)--2025-07-23
 - [Mac 终端（Terminal）小 Tips](https://github.com/sunyuan686/blog/issues/22)--2025-07-23
 - [Warp 的窗口管理（分屏）](https://github.com/sunyuan686/blog/issues/21)--2025-07-22
-- [关于我的一切](https://github.com/sunyuan686/blog/issues/20)--2025-07-21
 ## THINK
 
 - [关于Vibe coding 的思考](https://github.com/sunyuan686/blog/issues/23)--2025-07-23
@@ -41,6 +41,8 @@ All sources of inspiration from: [yihong0618](https://github.com/yihong0618/gitb
 - [我常使用的Mac 软件](https://github.com/sunyuan686/blog/issues/18)--2025-07-21
 - [我装了这些 Raycast 插件](https://github.com/sunyuan686/blog/issues/17)--2025-07-21
 ## TODO
+TODO list from [通俗易懂理解AI 相关概念](https://github.com/sunyuan686/blog/issues/25) all done
+
 TODO list from [关于笔记体系的思考](https://github.com/sunyuan686/blog/issues/11) all done
 
 TODO list from [装修该博客](https://github.com/sunyuan686/blog/issues/10)--9 jobs to do--0 jobs done
