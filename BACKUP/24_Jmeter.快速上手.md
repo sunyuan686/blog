@@ -20,6 +20,8 @@
    - **Ramp-up Period (in seconds)**: `10` (在10秒内让这20个用户全部启动)
    - **循环次数 (Loop Count)**: `100` (每个用户重复请求100次)
    - 也可以设置一段时间
+
+
 <img width="1434" height="785" alt="Image" src="https://github.com/user-attachments/assets/63411f08-65fb-4873-a523-fc76ecbd0d1d" />
 
 
