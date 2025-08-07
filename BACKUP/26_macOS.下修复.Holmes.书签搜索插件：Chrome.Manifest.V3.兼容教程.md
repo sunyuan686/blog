@@ -2,7 +2,7 @@
 
 
 
-# 在新版 Chrome 中恢复被禁用的 Holmes 插件（Manifest V3 兼容）【Mac 教程】
+在新版 Chrome 中恢复被禁用的 Holmes 插件（Manifest V3 兼容）【Mac 教程】
 
 > 原插件名：[**Holmes**](https://chromewebstore.google.com/detail/holmes/gokficnebmomagijbakglkcmhdbchbhn)
 >  插件功能：**在 Chrome 地址栏中快速搜索书签** Chrome Bookmark Search Extension

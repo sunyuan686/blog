@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/sunyuan686/blog</id><title>RSS feed of sunyuan686's blog</title><updated>2025-08-07T05:09:58.993021+00:00</updated><link href="https://github.com/sunyuan686/blog"/><link href="https://raw.githubusercontent.com/sunyuan686/blog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator><entry><id>https://github.com/sunyuan686/blog/issues/26</id><title>macOS 下修复 Holmes 书签搜索插件：Chrome Manifest V3 兼容教程</title><updated>2025-08-07T05:09:59.475584+00:00</updated><content type="html"><![CDATA[<h1>在新版 Chrome 中恢复被禁用的 Holmes 插件（Manifest V3 兼容）【Mac 教程】</h1>
+<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/sunyuan686/blog</id><title>RSS feed of sunyuan686's blog</title><updated>2025-08-07T05:45:37.502418+00:00</updated><link href="https://github.com/sunyuan686/blog"/><link href="https://raw.githubusercontent.com/sunyuan686/blog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator><entry><id>https://github.com/sunyuan686/blog/issues/26</id><title>macOS 下修复 Holmes 书签搜索插件：Chrome Manifest V3 兼容教程</title><updated>2025-08-07T05:45:37.846705+00:00</updated><content type="html"><![CDATA[<p>在新版 Chrome 中恢复被禁用的 Holmes 插件（Manifest V3 兼容）【Mac 教程】</p>
 <blockquote>
 <p>原插件名：<a href="https://chromewebstore.google.com/detail/holmes/gokficnebmomagijbakglkcmhdbchbhn"><strong>Holmes</strong></a>
 插件功能：<strong>在 Chrome 地址栏中快速搜索书签</strong> Chrome Bookmark Search Extension
@@ -151,7 +151,7 @@
 <li>✅ 升级 <code>manifest.json</code> 为 V3 格式</li>
 <li>✅ 成功恢复插件功能</li>
 </ul>
-]]></content><link href="https://github.com/sunyuan686/blog/issues/26"/><category term="TOOL &amp;&amp; RESOURCE"/><published>2025-08-07T05:09:37+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/25</id><title>通俗易懂理解AI 相关概念</title><updated>2025-08-07T05:09:59.773601+00:00</updated><content type="html"><![CDATA[<p>Agent: Agent 是一个能像人一样思考、决策并自动完成任务的智能程序。</p>
+]]></content><link href="https://github.com/sunyuan686/blog/issues/26"/><category term="TOOL &amp;&amp; RESOURCE"/><published>2025-08-07T05:09:37+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/25</id><title>通俗易懂理解AI 相关概念</title><updated>2025-08-07T05:45:38.004525+00:00</updated><content type="html"><![CDATA[<p>Agent: Agent 是一个能像人一样思考、决策并自动完成任务的智能程序。</p>
 <pre><code class="language-python"># 简单AI Agent伪代码（聊天机器人示例）
 
 # 1. 感知模块：获取用户输入
@@ -237,7 +237,7 @@ function advanced_main():
 </code></pre>
 <p>MCP
 先占个坑，近期要补充。</p>
-]]></content><link href="https://github.com/sunyuan686/blog/issues/25"/><category term="TODO"/><published>2025-07-30T02:31:29+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/24</id><title>Jmeter 快速上手</title><updated>2025-08-07T05:09:59.950385+00:00</updated><content type="html"><![CDATA[<h1>JMeter 性能测试实战笔记</h1>
+]]></content><link href="https://github.com/sunyuan686/blog/issues/25"/><category term="TODO"/><published>2025-07-30T02:31:29+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/24</id><title>Jmeter 快速上手</title><updated>2025-08-07T05:45:38.102510+00:00</updated><content type="html"><![CDATA[<h1>JMeter 性能测试实战笔记</h1>
 <p>本文档是一份详细的 JMeter 指南，涵盖了从创建测试计划、执行测试到解读性能结果的全过程。</p>
 <h2>一、创建测试计划</h2>
 <p>一个完整的测试计划是执行性能测试的基础。下面将分步介绍如何创建一个针对文件上传接口的测试场景。</p>
@@ -476,18 +476,18 @@ jmeter -n -t $TEST_PLAN -l $RESULT_FILE -e -o $REPORT_DIR
 <li><strong>优雅地停止 (Shutdown)</strong>: <code>停止</code> 按钮旁边的那个灰色 <code>■</code> 按钮。这会允许当前正在执行的请求完成后再停止所有线程，是<strong>更推荐的停止方式</strong>。</li>
 <li><strong>清除结果 (Clear All)</strong>: 工具栏上的扫帚图标 <code>🧹</code>。点击它会清除所有监听器（如 <code>聚合报告</code>、<code>查看结果树</code>）中已有的测试结果，方便您开始一次全新的测试。</li>
 </ul>
-]]></content><link href="https://github.com/sunyuan686/blog/issues/24"/><category term="SOFTWARE"/><published>2025-07-24T10:33:00+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/23</id><title>关于Vibe coding 的思考</title><updated>2025-08-07T05:10:00.177294+00:00</updated><content type="html"><![CDATA[<p><a href="https://en.wikipedia.org/wiki/Vibe_coding">Vibe coding</a> 的时候一定要多观察 AI <strong>思考问题的思路</strong>和<strong>解决问题的过程</strong>，这才是重点，而不是 accept 的那个结果。
+]]></content><link href="https://github.com/sunyuan686/blog/issues/24"/><category term="SOFTWARE"/><published>2025-07-24T10:33:00+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/23</id><title>关于Vibe coding 的思考</title><updated>2025-08-07T05:45:38.316515+00:00</updated><content type="html"><![CDATA[<p><a href="https://en.wikipedia.org/wiki/Vibe_coding">Vibe coding</a> 的时候一定要多观察 AI <strong>思考问题的思路</strong>和<strong>解决问题的过程</strong>，这才是重点，而不是 accept 的那个结果。
 看 AI 是如何一步一步分析问题、实现需求、遇到问题解决问题。
 仔细观察 AI 的输出结果去总结去记录，和 AI 对话会有大量的信息，从每一次的对话中总结经验，整理然后逐步内化成自己的能力
 方法层面的东西远比结果更重要。
 还有就是代码跑通了，还要多看看代码，去整理去归纳，这样才能有所收获，不然即使代码跑通了，也没什么用。我们要的不是真正的 VIbe，而是 knowledge。
 最后的最后无脑 ask、 run、accept就是再浪费时间。</p>
-]]></content><link href="https://github.com/sunyuan686/blog/issues/23"/><category term="THINK"/><published>2025-07-23T14:55:37+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/22</id><title>Mac 终端（Terminal）小 Tips</title><updated>2025-08-07T05:10:00.478048+00:00</updated><content type="html"><![CDATA[<ol>
+]]></content><link href="https://github.com/sunyuan686/blog/issues/23"/><category term="THINK"/><published>2025-07-23T14:55:37+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/22</id><title>Mac 终端（Terminal）小 Tips</title><updated>2025-08-07T05:45:38.428564+00:00</updated><content type="html"><![CDATA[<ol>
 <li>再终端中输入 <code>open .</code> 便可快速再 Finder 中打开当前文件</li>
 <li>
 </li>
 </ol>
-]]></content><link href="https://github.com/sunyuan686/blog/issues/22"/><category term="TOOL &amp;&amp; RESOURCE"/><published>2025-07-23T14:42:32+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/21</id><title>Warp 的窗口管理（分屏）</title><updated>2025-08-07T05:10:00.690467+00:00</updated><content type="html"><![CDATA[<p><a href="https://www.warp.dev/">Warp</a>  is the fastest way to build with multiple AI agents—from writing code to shipping it. The best overall coding and terminal agent.</p>
+]]></content><link href="https://github.com/sunyuan686/blog/issues/22"/><category term="TOOL &amp;&amp; RESOURCE"/><published>2025-07-23T14:42:32+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/21</id><title>Warp 的窗口管理（分屏）</title><updated>2025-08-07T05:45:38.556491+00:00</updated><content type="html"><![CDATA[<p><a href="https://www.warp.dev/">Warp</a>  is the fastest way to build with multiple AI agents—from writing code to shipping it. The best overall coding and terminal agent.</p>
 <p>以下快捷键都以Mac 为主，Window 烦请自行Google。
 1.再选中的窗口向右添加窗口 : <code>Command + D</code></p>
 <img width="1192" height="768" alt="Image" src="https://github.com/user-attachments/assets/91b4d4ad-b4bd-414c-9697-dbfa4cc33356" />
@@ -495,13 +495,13 @@ jmeter -n -t $TEST_PLAN -l $RESULT_FILE -e -o $REPORT_DIR
 <img width="1192" height="768" alt="Image" src="https://github.com/user-attachments/assets/b9b57419-e29b-4163-9c1b-3c2ea355b10f" />
 <p>3.如果你忘了快捷键 ，请记住 <code>Command + P</code> 打开搜索框输入 split，点击对应的选项即可实现分屏</p>
 <img width="1192" height="768" alt="Image" src="https://github.com/user-attachments/assets/0d5c5bc5-5eac-4ed3-8375-7c45469909d3" />
-]]></content><link href="https://github.com/sunyuan686/blog/issues/21"/><category term="SOFTWARE"/><published>2025-07-22T10:05:53+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/20</id><title>关于我的一切</title><updated>2025-08-07T05:10:00.876051+00:00</updated><content type="html"><![CDATA[<p>我是一个喜欢收集各种工具和资料的人，但是很少整理和分享，这好吗？这不好</p>
+]]></content><link href="https://github.com/sunyuan686/blog/issues/21"/><category term="SOFTWARE"/><published>2025-07-22T10:05:53+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/20</id><title>关于我的一切</title><updated>2025-08-07T05:45:38.658570+00:00</updated><content type="html"><![CDATA[<p>我是一个喜欢收集各种工具和资料的人，但是很少整理和分享，这好吗？这不好</p>
 <p>1.<a href="https://blog.xixihaha.tech/issue-18/">我常使用的Mac 软件</a>
 2.<a href="https://blog.xixihaha.tech/issue-19/">我关注了哪些人</a>
 3.[我读过的书]
 4.[我跑步听过的电台]
 5.[我和我的家属]</p>
-]]></content><link href="https://github.com/sunyuan686/blog/issues/20"/><category term="Top"/><published>2025-07-21T14:27:28+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/19</id><title>我关注了哪些人</title><updated>2025-08-07T05:10:01.102633+00:00</updated><content type="html"><![CDATA[<p>感谢所有人的输出，感谢互联网，感谢伟大的中国🇨🇳</p>
+]]></content><link href="https://github.com/sunyuan686/blog/issues/20"/><category term="Top"/><published>2025-07-21T14:27:28+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/19</id><title>我关注了哪些人</title><updated>2025-08-07T05:45:38.758440+00:00</updated><content type="html"><![CDATA[<p>感谢所有人的输出，感谢互联网，感谢伟大的中国🇨🇳</p>
 <ol>
 <li><a href="https://blog.yihong0618.me/">yihong0618</a> : 喜欢王小波和跑步。</li>
 <li><a href="https://www.owenyoung.com/">owen</a> : 沉浸式翻译作者，追求“注意力自由”。</li>
@@ -510,7 +510,7 @@ jmeter -n -t $TEST_PLAN -l $RESULT_FILE -e -o $REPORT_DIR
 <ol start="2">
 <li>如果我们有共同喜欢的人，欢迎一起交流 <a href="mailto:sunyuan608@gmail.com"> 📧 </a></li>
 </ol>
-]]></content><link href="https://github.com/sunyuan686/blog/issues/19"/><category term="TOOL &amp;&amp; RESOURCE"/><published>2025-07-21T14:16:06+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/18</id><title>我常使用的Mac 软件</title><updated>2025-08-07T05:10:01.325636+00:00</updated><content type="html"><![CDATA[<h2>一、 工具类</h2>
+]]></content><link href="https://github.com/sunyuan686/blog/issues/19"/><category term="TOOL &amp;&amp; RESOURCE"/><published>2025-07-21T14:16:06+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/18</id><title>我常使用的Mac 软件</title><updated>2025-08-07T05:45:38.877972+00:00</updated><content type="html"><![CDATA[<h2>一、 工具类</h2>
 <p>🆓 免费</p>
 <ol>
 <li><a href="https://folivora.ai/keyboardcleantool">KeyboardCleanTool</a> : 一个清理Mac keyboard的小工具</li>
@@ -524,7 +524,7 @@ jmeter -n -t $TEST_PLAN -l $RESULT_FILE -e -o $REPORT_DIR
 <li><a href="https://www.raycast.com/">Ratcast</a> : Mac必装的聚焦搜索（快捷启动）工具，我装了这些插件:<a href="https://blog.xixihaha.tech/issue-17/">☞</a></li>
 </ol>
 <p>先写到这里，我会长期更新补充，如果你看到了，欢迎催我，也可以一起交流 <a href="mailto:sunyuan608@gmail.com"> 📧 </a></p>
-]]></content><link href="https://github.com/sunyuan686/blog/issues/18"/><category term="TOOL &amp;&amp; RESOURCE"/><published>2025-07-21T14:01:31+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/17</id><title>我装了这些 Raycast 插件</title><updated>2025-08-07T05:10:01.501449+00:00</updated><content type="html"><![CDATA[<p><a href="https://www.raycast.com/">Raycast</a> A collection of powerful productivity tools all within an extendable launcher. Fast, ergonomic and reliable.</p>
+]]></content><link href="https://github.com/sunyuan686/blog/issues/18"/><category term="TOOL &amp;&amp; RESOURCE"/><published>2025-07-21T14:01:31+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/17</id><title>我装了这些 Raycast 插件</title><updated>2025-08-07T05:45:38.989442+00:00</updated><content type="html"><![CDATA[<p><a href="https://www.raycast.com/">Raycast</a> A collection of powerful productivity tools all within an extendable launcher. Fast, ergonomic and reliable.</p>
 <p>1.<a href="https://github.com/raycast/extensions/blob/ad63c90763c3729655df44355eee95fc2c33c85e/extensions/messages/README.md">Messages</a>
 如果你同时拥有 Mac 和 IPhone，且登录了同一个账号。光标聚焦输入框，全局任意地方，呼出 Raycast ，搜索 [Paste Latest OTP Code] ，便可以把你最新的验证码粘贴到光标聚焦的输入框。大大提升幸福感。
 2. <a href="https://github.com/raycast/extensions/tree/f26a29453d8cf46efee0e9b2ea9eb6d9f096c069/extensions/single-disk-eject/">single-disk-eject</a>
@@ -535,16 +535,16 @@ jmeter -n -t $TEST_PLAN -l $RESULT_FILE -e -o $REPORT_DIR
 <ol start="4">
 <li>等我有时间再整理补充，如果你看到了，欢迎催我 <a href="mailto:sunyuan608@gmail.com"> 📧 </a></li>
 </ol>
-]]></content><link href="https://github.com/sunyuan686/blog/issues/17"/><category term="TOOL &amp;&amp; RESOURCE"/><published>2025-07-21T13:55:06+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/16</id><title>都不会写字了！</title><updated>2025-08-07T05:10:01.714088+00:00</updated><content type="html"><![CDATA[<p>好久没有用笔写字了，今天要抄一些内容，发现好多字都不会写了，对很多笔画多的字都很陌生的感觉。
+]]></content><link href="https://github.com/sunyuan686/blog/issues/17"/><category term="TOOL &amp;&amp; RESOURCE"/><published>2025-07-21T13:55:06+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/16</id><title>都不会写字了！</title><updated>2025-08-07T05:45:39.085318+00:00</updated><content type="html"><![CDATA[<p>好久没有用笔写字了，今天要抄一些内容，发现好多字都不会写了，对很多笔画多的字都很陌生的感觉。
 习惯了电子设备的输入，需要写字的场景太少了，打字的速度越来越快，离纸笔的距离却越来越远。
 导致除了自己的名字，几乎很少去写字，慢慢的就越来越陌生了。
 所以啊，还是要时不时去用笔写字，保持手感，不然过几年怕是都不会写字了！</p>
-]]></content><link href="https://github.com/sunyuan686/blog/issues/16"/><category term="RANDOM"/><published>2025-07-18T06:17:59+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/15</id><title>代码风格好坏是要求自己的不是要求别人的</title><updated>2025-08-07T05:10:02.024917+00:00</updated><content type="html"><![CDATA[<p>代码风格好坏是要求自己的不是要求别人的！
+]]></content><link href="https://github.com/sunyuan686/blog/issues/16"/><category term="RANDOM"/><published>2025-07-18T06:17:59+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/15</id><title>代码风格好坏是要求自己的不是要求别人的</title><updated>2025-08-07T05:45:39.262410+00:00</updated><content type="html"><![CDATA[<p>代码风格好坏是要求自己的不是要求别人的！
 <a href="https://blog.yihong0618.me/issue-318/">来源</a></p>
-]]></content><link href="https://github.com/sunyuan686/blog/issues/15"/><category term="THINK"/><published>2025-07-15T16:14:31+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/14</id><title>道德只能用来约束自己，不可以要求别人！</title><updated>2025-08-07T05:10:02.262341+00:00</updated><content type="html"><![CDATA[<p>道德只能用来约束自己，不可以要求别人！</p>
+]]></content><link href="https://github.com/sunyuan686/blog/issues/15"/><category term="THINK"/><published>2025-07-15T16:14:31+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/14</id><title>道德只能用来约束自己，不可以要求别人！</title><updated>2025-08-07T05:45:39.353713+00:00</updated><content type="html"><![CDATA[<p>道德只能用来约束自己，不可以要求别人！</p>
 <p><img src="https://github.com/user-attachments/assets/bcce8ab2-ad79-402f-a7b6-593d35618142" alt="Image" /></p>
-]]></content><link href="https://github.com/sunyuan686/blog/issues/14"/><category term="THINK"/><published>2025-07-15T06:20:31+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/11</id><title>关于笔记体系的思考</title><updated>2025-08-07T05:10:02.441721+00:00</updated><content type="html"><![CDATA[<p>标签体系</p>
-]]></content><link href="https://github.com/sunyuan686/blog/issues/11"/><category term="TODO"/><published>2025-07-12T03:48:12+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/10</id><title>装修该博客</title><updated>2025-08-07T05:10:02.620309+00:00</updated><content type="html"><![CDATA[<ul>
+]]></content><link href="https://github.com/sunyuan686/blog/issues/14"/><category term="THINK"/><published>2025-07-15T06:20:31+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/11</id><title>关于笔记体系的思考</title><updated>2025-08-07T05:45:39.450674+00:00</updated><content type="html"><![CDATA[<p>标签体系</p>
+]]></content><link href="https://github.com/sunyuan686/blog/issues/11"/><category term="TODO"/><published>2025-07-12T03:48:12+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/10</id><title>装修该博客</title><updated>2025-08-07T05:45:39.580312+00:00</updated><content type="html"><![CDATA[<ul>
 <li>
 <p><input disabled="" type="checkbox"> 调整样式</p>
 </li>
@@ -573,14 +573,14 @@ jmeter -n -t $TEST_PLAN -l $RESULT_FILE -e -o $REPORT_DIR
 <p><input disabled="" type="checkbox"> 不同的主题区别挺大的。无法完整兼容自己想要的全部功能，可能得自己去二开一些主题了。现在使用过的主题有 even 和apollo。even对 github issue 有单独的适配，但是可配置项也更少一些。</p>
 </li>
 </ul>
-]]></content><link href="https://github.com/sunyuan686/blog/issues/10"/><category term="TODO"/><published>2025-07-09T16:14:54+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/9</id><title>GitHub Page 如何使用自定义域名</title><updated>2025-08-07T05:10:02.840545+00:00</updated><content type="html"><![CDATA[<p>null</p>
-]]></content><link href="https://github.com/sunyuan686/blog/issues/9"/><category term="TODO"/><published>2025-07-09T16:11:35+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/8</id><title>如何部署该博客！</title><updated>2025-08-07T05:10:03.052929+00:00</updated><content type="html"><![CDATA[<p>null</p>
-]]></content><link href="https://github.com/sunyuan686/blog/issues/8"/><category term="TODO"/><published>2025-07-09T16:10:17+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/6</id><title>About me</title><updated>2025-08-07T05:10:03.251091+00:00</updated><content type="html"><![CDATA[<p>Runs for fun. Not fast.</p>
+]]></content><link href="https://github.com/sunyuan686/blog/issues/10"/><category term="TODO"/><published>2025-07-09T16:14:54+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/9</id><title>GitHub Page 如何使用自定义域名</title><updated>2025-08-07T05:45:39.692519+00:00</updated><content type="html"><![CDATA[<p>null</p>
+]]></content><link href="https://github.com/sunyuan686/blog/issues/9"/><category term="TODO"/><published>2025-07-09T16:11:35+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/8</id><title>如何部署该博客！</title><updated>2025-08-07T05:45:39.854868+00:00</updated><content type="html"><![CDATA[<p>null</p>
+]]></content><link href="https://github.com/sunyuan686/blog/issues/8"/><category term="TODO"/><published>2025-07-09T16:10:17+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/6</id><title>About me</title><updated>2025-08-07T05:45:39.958625+00:00</updated><content type="html"><![CDATA[<p>Runs for fun. Not fast.</p>
 <p>No life .Coding is passion.</p>
 <p>Vim & terminal lover.</p>
 <p>Obsessive about efficiency and high-performance code.</p>
 <p>Pursuing a pure keyboard workflow（%10 😅 ）.</p>
-<p>: wq</p>]]></content><link href="https://github.com/sunyuan686/blog/issues/6"/><category term="About"/><published>2025-07-09T13:20:23+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/4</id><title>AI 太会安慰人了，像一个贴心的好老师，给你信心给你安慰</title><updated>2025-08-07T05:10:03.458866+00:00</updated><content type="html"><![CDATA[<p>&lt; 我是一个废物。学不会算法，学习能力差，一道归并排序半天没学会，我该怎么办。</p>
+<p>: wq</p>]]></content><link href="https://github.com/sunyuan686/blog/issues/6"/><category term="About"/><published>2025-07-09T13:20:23+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/4</id><title>AI 太会安慰人了，像一个贴心的好老师，给你信心给你安慰</title><updated>2025-08-07T05:45:40.063988+00:00</updated><content type="html"><![CDATA[<p>&lt; 我是一个废物。学不会算法，学习能力差，一道归并排序半天没学会，我该怎么办。</p>
 <p>看到你这么说，我感到非常难过，但请你 一定、一定不要这样称呼自己。
 你不是废物。你只是一个在学习过程中遇到了困难，感到极度挫败的学生。这种感觉，几乎每一个学习编程和算法的人都经历过，真的，我向你保证。
 “一道归并排序半天没学会” 这件事，绝对不能定义你这个人，更不能说明你学习能力差。让我为你拆解一下这个问题，希望能帮助你走出这个困境。
@@ -626,11 +626,11 @@ jmeter -n -t $TEST_PLAN -l $RESULT_FILE -e -o $REPORT_DIR
 你不是废物，你只是一个在攀登一座有点陡峭的山峰的学习者。暂时卡住，不代表你登不上去。调整一下装备（学习方法），喘口气（休息一下），你完全可以继续前行。
 给自己一点时间和耐心。如果今天学不会，就睡一觉，让大脑在后台自己处理一下信息，明天可能就会有新的理解。加油！你远比你想象的要强大。</li>
 </ul>
-]]></content><link href="https://github.com/sunyuan686/blog/issues/4"/><category term="THINK"/><published>2025-07-06T16:15:16+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/3</id><title>去输出去分享！</title><updated>2025-08-07T05:10:03.735165+00:00</updated><content type="html"><![CDATA[<p>要疯狂输入然后输出，要形成闭环。
+]]></content><link href="https://github.com/sunyuan686/blog/issues/4"/><category term="THINK"/><published>2025-07-06T16:15:16+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/3</id><title>去输出去分享！</title><updated>2025-08-07T05:45:40.205813+00:00</updated><content type="html"><![CDATA[<p>要疯狂输入然后输出，要形成闭环。
 用输出倒逼自己，驱动去学习整理理解记忆。不然太容易忘了。
 还有就是干啥事情不要战线拉太长，不然就会学了后面的忘了前面的，太痛苦了。
 Respect </p>
-]]></content><link href="https://github.com/sunyuan686/blog/issues/3"/><category term="THINK"/><published>2025-06-23T16:22:01+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/2</id><title>学计算机一定要折腾，不怕麻烦。</title><updated>2025-08-07T05:10:03.944297+00:00</updated><content type="html"><![CDATA[<p>出来混，最重要的是出来。
+]]></content><link href="https://github.com/sunyuan686/blog/issues/3"/><category term="THINK"/><published>2025-06-23T16:22:01+00:00</published></entry><entry><id>https://github.com/sunyuan686/blog/issues/2</id><title>学计算机一定要折腾，不怕麻烦。</title><updated>2025-08-07T05:45:40.323743+00:00</updated><content type="html"><![CDATA[<p>出来混，最重要的是出来。
 博客一直在纠结用什么工具，用什么主题，框架怎么搭，却忽略了最重要的是内容啊。
 看到了好多大佬再输出，也想整一个，一直懒得折腾，迟迟没有去行动，几年了最终什么都没有。
 所以说学计算机，一定要多折腾。
