@@ -10,11 +10,11 @@ All sources of inspiration from: [yihong0618](https://github.com/yihong0618/gitb
 ## 置顶文章
 - [关于我的一切](https://github.com/sunyuan686/blog/issues/20)--2025-07-21
 ## 最近更新
+- [走近 LLM：用通俗语言理解 ChatGPT 背后的工作原理（基于 Karpathy「Deep Dive into LLMs」）](https://github.com/sunyuan686/blog/issues/27)--2025-08-10
 - [macOS 下修复 Holmes 书签搜索插件：Chrome Manifest V3 兼容教程](https://github.com/sunyuan686/blog/issues/26)--2025-08-07
 - [通俗易懂理解AI 相关概念](https://github.com/sunyuan686/blog/issues/25)--2025-07-30
 - [Jmeter 快速上手](https://github.com/sunyuan686/blog/issues/24)--2025-07-24
 - [关于Vibe coding 的思考](https://github.com/sunyuan686/blog/issues/23)--2025-07-23
-- [Mac 终端（Terminal）小 Tips](https://github.com/sunyuan686/blog/issues/22)--2025-07-23
 ## THINK
 
 - [关于Vibe coding 的思考](https://github.com/sunyuan686/blog/issues/23)--2025-07-23
@@ -31,6 +31,9 @@ All sources of inspiration from: [yihong0618](https://github.com/yihong0618/gitb
 
 - [Jmeter 快速上手](https://github.com/sunyuan686/blog/issues/24)--2025-07-24
 - [Warp 的窗口管理（分屏）](https://github.com/sunyuan686/blog/issues/21)--2025-07-22
+## AI
+
+- [走近 LLM：用通俗语言理解 ChatGPT 背后的工作原理（基于 Karpathy「Deep Dive into LLMs」）](https://github.com/sunyuan686/blog/issues/27)--2025-08-10
 ## RANDOM
 
 - [都不会写字了！](https://github.com/sunyuan686/blog/issues/16)--2025-07-18
