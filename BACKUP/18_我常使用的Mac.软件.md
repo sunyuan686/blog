@@ -9,6 +9,7 @@
 3. [Stats](https://mac-stats.com/) : 菜单栏系统监视器菜
 4. [Alttab](https://alt-tab-macos.netlify.app/) : macOS上的 Windows alt-tab
 5. [keeppassxc](https://keepassxc.org/docs/KeePassXC_GettingStarted#_browser_integration) :开源的本地密码管理器，支持浏览器快速填充（配合浏览器插件）同步需要配合 ICloud 或者 坚果云等同步工具。
+6. [Eudic](https://www.eudic.net/v4/en/app/eudic) ：LightPeek快速查词，OCR 屏幕截图查词，大大提升阅读体验。
 
 ## 二、 效率类
 
