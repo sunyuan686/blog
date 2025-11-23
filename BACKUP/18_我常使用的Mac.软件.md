@@ -13,7 +13,7 @@
 
 ## 二、 效率类
 
-1. [Ratcast](https://www.raycast.com/) : Mac必装的聚焦搜索（快捷启动）工具，我装了这些插件:[☞](https://blog.xixihaha.tech/issue-17/)
+1. [Ratcast](https://www.raycast.com/) : Mac必装的聚焦搜索（快捷启动）工具，我装了这些插件:[☞](https://blog.xixihaha.tech/issue-17/)，我常用的功能 [🔗](https://github.com/sunyuan686/blog/issues/33)
 
 
 
